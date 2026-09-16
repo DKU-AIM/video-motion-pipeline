@@ -1,4 +1,4 @@
-# AIM_TEAM · Video Motion Pipeline
+# AIM - Video Motion Pipeline
 
 <p align="center"><img src="docs/images/aim-team-logo.png" width="240" alt="AIM 팀 로고: 영상 프레임, 메시 캐릭터와 설명 말풍선"></p>
 
