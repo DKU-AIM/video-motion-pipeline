@@ -1,0 +1,374 @@
+[
+  {
+    "source": "vtg_run.py",
+    "destination": "grounding/vtg_run.py",
+    "sha256": "2a21b06598f3a584e2f9a1f95779bd63ee436f4e008987297dbc8842d5d5fd01",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "test_vtg_run.py",
+    "destination": "grounding/test_vtg_run.py",
+    "sha256": "6df1f4d30e7b9a00b38b1902ac2104ed21a62dcd1e70d4abf1fb9240520e9dcb",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "run_experiments.py",
+    "destination": "grounding/run_experiments.py",
+    "sha256": "744de0da261fae1e1f02c8261dec69cca070b1537e065485fe096003ee1f04ec",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "app.py",
+    "destination": "grounding/app.py",
+    "sha256": "b10be2b6026859c706459391ab2603cee9569a84890f53336baaa971150caf9b",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "demo.py",
+    "destination": "grounding/demo.py",
+    "sha256": "f92e94a5ff9197ba02fae890cc42183df470791b7e850be32f042985dd7cc177",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/__init__.py",
+    "destination": "smpl_eval/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/ablate_tracker.py",
+    "destination": "smpl_eval/ablate_tracker.py",
+    "sha256": "14e918f25e569842aadb399b2b3d6f479f37730b68a976e949e40ef3cab7b084",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/conventions.py",
+    "destination": "smpl_eval/conventions.py",
+    "sha256": "23c22855a0402dbb4facd7a1afded7e8b318c5d9224b4d373be2d7023cd91c72",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/crop_test.py",
+    "destination": "smpl_eval/crop_test.py",
+    "sha256": "de55c41762995f926598777ff45f974aaa9d2f4a3969d62286f9eaff0cfcebb2",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/crossview.py",
+    "destination": "smpl_eval/crossview.py",
+    "sha256": "24dec06073a3a1829d3e7502c7fb5a28ba9b8a09bd348259bc38c76b21f76116",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/dataset_index.py",
+    "destination": "smpl_eval/dataset_index.py",
+    "sha256": "64c056dd470b9e8c08cb7eb7cdf58ae0e11bd41f7c50eba2e4bc5ff34313afb2",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/evaluate.py",
+    "destination": "smpl_eval/evaluate.py",
+    "sha256": "19df019fe7c08a99018f41041b5d1dbe849a4dbbed7aef995b6abad03bd9479b",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/fix_bbox.py",
+    "destination": "smpl_eval/fix_bbox.py",
+    "sha256": "777438e1ad15179c2211198755a029179dc091f98a84c60b1226a2c3b77b7f7f",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/fov_fix.py",
+    "destination": "smpl_eval/fov_fix.py",
+    "sha256": "2f3218dd76ed0d3f2ad08c8e15b570793d74fa3b74c398542b742aec3b192d71",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/fov_probe.py",
+    "destination": "smpl_eval/fov_probe.py",
+    "sha256": "a1e6a635a62ecbd3c08e77988db477e9eca831c8d07caf24069716eb5e2ddafb",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/gt/__init__.py",
+    "destination": "smpl_eval/gt/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/gt/colmap.py",
+    "destination": "smpl_eval/gt/colmap.py",
+    "sha256": "a762cff3583661eceead7a67c4fb3fc710f9e9e1c1879f583443a7ed196d5927",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/gt/parse_pose2d.py",
+    "destination": "smpl_eval/gt/parse_pose2d.py",
+    "sha256": "336555787af2d468371d3e60ed10672335dbfe535f1c3e895a73cb73729de415",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/gt/parse_pose3d.py",
+    "destination": "smpl_eval/gt/parse_pose3d.py",
+    "sha256": "f4f8f883eebf9ac3298f26bc65dd8cc5bbc3f52da51c6e611b8bf0667616deb4",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/gt/reproject_check.py",
+    "destination": "smpl_eval/gt/reproject_check.py",
+    "sha256": "594bcec9523baf344d3a9cdd6b1652841aea45216fd58704700e3b313fda8942",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/idviz.py",
+    "destination": "smpl_eval/idviz.py",
+    "sha256": "92f81ec3d32bd5090ca3f55ddefa0becf8c0122c841f0831880b8ebcc5d94bd3",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/meshrender.py",
+    "destination": "smpl_eval/meshrender.py",
+    "sha256": "fb8872b9ec22528582156dad343caeda8ce27b5aefb993160833604d33b20b08",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/meshrender_mh2.py",
+    "destination": "smpl_eval/meshrender_mh2.py",
+    "sha256": "0a693c9a0667ab5701180cffad502a35a810932f9e7556d6deee4dcd3b1360b7",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/__init__.py",
+    "destination": "smpl_eval/metrics/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/geometry.py",
+    "destination": "smpl_eval/metrics/geometry.py",
+    "sha256": "fb86e639bb8dcd53c050c4fb0f333d14633f137eae0e52848bbce2144adec16a",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/handsize.py",
+    "destination": "smpl_eval/metrics/handsize.py",
+    "sha256": "399c73cabb225ce8f67ff194efe8878cfbdcf1a20bdd90178cf703cf5d24c52e",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/identity.py",
+    "destination": "smpl_eval/metrics/identity.py",
+    "sha256": "999e396f88916835fda6a3345299c7e24f572c261b6dcad371e2334562c5cda6",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/occlusion.py",
+    "destination": "smpl_eval/metrics/occlusion.py",
+    "sha256": "458f5683b897257bed8950d9041a10ae0474de187d240a034bbee24e6ed5d875",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/plausibility.py",
+    "destination": "smpl_eval/metrics/plausibility.py",
+    "sha256": "9eef3da4e952aa413c24cf58accc53ba373ecdc294940d3831d53c73607bf79e",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/metrics/pose.py",
+    "destination": "smpl_eval/metrics/pose.py",
+    "sha256": "120163bc5469ec0b37e28ffdfa0bc69b81f47a177d951021fd785c8aaf800079",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/overlay.py",
+    "destination": "smpl_eval/overlay.py",
+    "sha256": "eef21afb60bbcf821d278e73ba19afd609498242f176d411c83f836774dcfa1b",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/postprocess.py",
+    "destination": "smpl_eval/postprocess.py",
+    "sha256": "92cc4d05a713a19ff5115d17a97eab9c5aba049eea0f41d36fb920a715d9e026",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/report/__init__.py",
+    "destination": "smpl_eval/report/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/report/build.py",
+    "destination": "smpl_eval/report/build.py",
+    "sha256": "a63cd6497f3d16eb63473dff165b425cdc8cc81b72f1f8fef52ef44552c53941",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/run_all.py",
+    "destination": "smpl_eval/run_all.py",
+    "sha256": "d8f002463068c2afa4284ab74d5444dc1d8163c545cda4b57a68d182afcb5944",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/runners/__init__.py",
+    "destination": "smpl_eval/runners/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/runners/base.py",
+    "destination": "smpl_eval/runners/base.py",
+    "sha256": "0a6537ee6b8aa0ddb60823ec613ba351a480d05025ba3b0c2084d025c1f721bc",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/runners/comotion.py",
+    "destination": "smpl_eval/runners/comotion.py",
+    "sha256": "220d3b59d7cd8295843f679ecd8ce0256396dd33e713687382055f5196bbc44a",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/runners/multihmr2.py",
+    "destination": "smpl_eval/runners/multihmr2.py",
+    "sha256": "58a7b496debb5223adec2ee82c4e6158f2b2fc830d087218a68e24e0065d5c1d",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/schema.py",
+    "destination": "smpl_eval/schema.py",
+    "sha256": "774db8d59d532c07ece0fb5d56dbcffdaecc90a14c84080ebf3c84419055e7d1",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/__init__.py",
+    "destination": "smpl_eval/tests/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/synth.py",
+    "destination": "smpl_eval/tests/synth.py",
+    "sha256": "6318840e7212729a748bbca23d1ec128eee2dc30b2c9be5d946f22d47e399d26",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_dataset_index.py",
+    "destination": "smpl_eval/tests/test_dataset_index.py",
+    "sha256": "8523f058f11397c1a6a138e5513e34467c9fda56c405186bd8bf6546bfe642bf",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_evaluate.py",
+    "destination": "smpl_eval/tests/test_evaluate.py",
+    "sha256": "9b713311a3366ccff8b3b06d7a70e04925d5751931a1db1b276106a37217939a",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_geometry.py",
+    "destination": "smpl_eval/tests/test_geometry.py",
+    "sha256": "7b9ef471e9c6786ad2859931beb7a0de2b0e83da4490d26aacddbdac868d4d38",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_gt_parse.py",
+    "destination": "smpl_eval/tests/test_gt_parse.py",
+    "sha256": "1e3f7fc3d5a14be9da505e64d845e287db123b7330e20b0c248ae4b179a30ddb",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_handsize.py",
+    "destination": "smpl_eval/tests/test_handsize.py",
+    "sha256": "df2352d8e3b97a1377ce0f42ef49e9ea4c172aa30e419203f463db27026c829d",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_identity.py",
+    "destination": "smpl_eval/tests/test_identity.py",
+    "sha256": "f716202e0e580fddaa209c836786234d9eef7c29c0f8fa700974b30d9e533c4b",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_occlusion.py",
+    "destination": "smpl_eval/tests/test_occlusion.py",
+    "sha256": "44799eb6303a4f9cca26b9878e48e212cd2a157dd519fd0947862e9b33d9c349",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_plausibility.py",
+    "destination": "smpl_eval/tests/test_plausibility.py",
+    "sha256": "9d50e60182829024cf636b4034147393a4f9672b74d947abbe7bc30aac7b67fa",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_pose.py",
+    "destination": "smpl_eval/tests/test_pose.py",
+    "sha256": "4b438e81f7f7b4cce25c27260cfbbe58b99d0931a295a787dc151c529a398e6e",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_postprocess.py",
+    "destination": "smpl_eval/tests/test_postprocess.py",
+    "sha256": "cccbd876828d5323513b0dbf5cd3eac1125c78a5549851be2cee9a0807c3bf98",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_report.py",
+    "destination": "smpl_eval/tests/test_report.py",
+    "sha256": "c4a2265fb9ae482633ff13ea2de655153ba50b95d58d2ef21c2ceaaf29211042",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_run_all.py",
+    "destination": "smpl_eval/tests/test_run_all.py",
+    "sha256": "3aa58a212877a964c4ca445818b6a3bab1325a34272a7a40c4e7bc56b59f8105",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/tests/test_schema.py",
+    "destination": "smpl_eval/tests/test_schema.py",
+    "sha256": "bdf4fa7393ecfe1b984429aac7392d411a03fa0cf0c51f8f554b7113bbf8b4da",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "smpl_eval/requirements.txt",
+    "destination": "smpl_eval/requirements.txt",
+    "sha256": "f303a38b2388f0560a419207659f46c6a1811c048c0781ef9e34e3984dd33ffc",
+    "workspace_path_parameterized": false
+  },
+  {
+    "source": "data/etri_20260916/scripts/run_pose_batch.py",
+    "destination": "mesh_recovery/run_pose_batch.py",
+    "sha256": "4f3293b4a6da780003685cb7ea33171d3f85430e0e6e2e44e8a01138c7be4b0f",
+    "workspace_path_parameterized": true
+  },
+  {
+    "source": "data/etri_20260916/scripts/pose_render.py",
+    "destination": "mesh_recovery/pose_render.py",
+    "sha256": "344178816fa9cb1323bb9bbe6433e7b1a944cb70a79271ad1a817237250423c8",
+    "workspace_path_parameterized": true
+  },
+  {
+    "source": "data/etri_20260916/scripts/render_cache.py",
+    "destination": "mesh_recovery/render_cache.py",
+    "sha256": "918a3077f5141d3e2a487262c3d89c0a141e92061d2b32bc5ba5cb6a6e0751f5",
+    "workspace_path_parameterized": true
+  },
+  {
+    "source": "data/etri_20260916/scripts/export_motion_inputs.py",
+    "destination": "annotation/motion_captioning/export_motion_inputs.py",
+    "sha256": "5e937fc9fda49454eee0560e6e1a96f7fd1a414346b599f5ea2c864dc84262a1",
+    "workspace_path_parameterized": true
+  },
+  {
+    "source": "data/etri_20260916/scripts/run_motiongpt.py",
+    "destination": "annotation/motion_captioning/run_motiongpt.py",
+    "sha256": "17bba7c4821179cd9a69b2950bf7589069fcb4959ecd83a3832f985a40fa5900",
+    "workspace_path_parameterized": true
+  },
+  {
+    "source": "data/etri_20260916/scripts/run_mgllm.py",
+    "destination": "annotation/motion_captioning/run_mgllm.py",
+    "sha256": "87678eeb67fbfdf3b3b5e90180860a7c1ff69684db776a919c738d8bed2fd25b",
+    "workspace_path_parameterized": true
+  }
+]
