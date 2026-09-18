@@ -17,7 +17,22 @@ source ~/motion-workspace/activate-motion.sh
 
 `run_motiongpt.py`는 위 public sample을 **설치와 모델 로딩 확인용**으로 먼저 캡셔닝합니다. 이것은 기업 영상 실험 결과가 아닙니다.
 
-## SMPL 파일
+## 서버로 직접 SMPL 다운로드
+
+SMPL 사이트에서 본인 계정 가입·이메일 인증과 약관 확인을 완료했다면, **엘리스 서버 터미널**에서 다음을 실행할 수 있습니다.
+
+```bash
+cd ~/video-motion-pipeline
+python3 scripts/download_smpl.py
+```
+
+서버 터미널에 계정 이메일과 비밀번호를 입력합니다. 비밀번호는 화면에 표시하거나 파일·명령 기록에 저장하지 않으며, 공식 HTTPS 다운로드 서비스에만 전송합니다. 브라우저 로그인 상태는 서버와 공유되지 않으므로 서버에서 한 번 인증해야 합니다. 인증정보를 채팅에 보내지 마세요.
+
+ZIP은 서버의 `~/motion-workspace/assets/private/`에 저장되고, 필요한 neutral 모델만 CoMotion 경로에 등록합니다. 맥에서는 실행을 거부하므로 모델을 맥으로 내려받지 않습니다. 다른 `--assets-root`도 지정할 수 있습니다. 기존 모델은 덮어쓰지 않습니다. 인증이 실패하면 모델을 설치하지 않고 오류를 표시합니다.
+
+이 방법의 파일 선택·추출 동작은 테스트했지만, 실제 로그인 다운로드는 사용자 인증 후에 확인해야 합니다.
+
+## 이미 확보한 SMPL 파일 등록
 
 CoMotion은 neutral SMPL v1.1.0 파일이 필수입니다. 파일은 배포·GitHub 업로드 대상이 아니므로, 공식 SMPL 절차를 따라 권한 있는 사용자가 내려받아야 합니다. 준비한 뒤에만 아래처럼 private assets root로 복사합니다.
 
