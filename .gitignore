@@ -25,3 +25,7 @@ third_party/
 *.pem
 *.key
 *.log
+results*.jsonl
+*.part
+*.part.json
+*.download.json
