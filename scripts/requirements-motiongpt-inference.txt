@@ -1,0 +1,8 @@
+# Inference-only subset for annotation/motion_captioning/run_motiongpt.py.
+# The upstream repository's training, WebUI, rendering, and evaluation extras
+# are intentionally not installed here.
+numpy==1.26.4
+scipy==1.11.4
+transformers==4.48.0
+sentencepiece==0.2.0
+tqdm==4.67.1

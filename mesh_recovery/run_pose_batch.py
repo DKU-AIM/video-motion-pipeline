@@ -1,6 +1,12 @@
 import os
 os.environ['PYOPENGL_PLATFORM']='osmesa'
 os.environ['OMP_NUM_THREADS']='4'
+import argparse
+parser=argparse.ArgumentParser(description='Run mesh recovery for prepared clips.')
+parser.add_argument('--models',nargs='+',choices=['comotion','hmr2'],default=['comotion','hmr2'])
+parser.add_argument('--conditions',nargs='+',choices=['full','crop'],help='Clip conditions to run. Defaults to full/crop, except daily uses full only.')
+args=parser.parse_args()
+
 import sys,pathlib,json,time,subprocess,pickle,traceback
 import numpy as np
 import torch
@@ -9,9 +15,6 @@ R=pathlib.Path(os.environ['MOTION_WORKSPACE']).expanduser().resolve();sys.path.i
 from smpl_eval.meshrender import MeshRenderer,track_color,draw_labels
 from smpl_eval.overlay import _font
 from comotion_demo.utils import smpl_kinematics as sk
-from multihmr2 import api
-from multihmr2.datasets.itw_image import preprocess_image
-from multihmr2.utils import denormalize_rgb
 OUT=R/'results';OUT.mkdir(exist_ok=True)
 torch.set_num_threads(4)
 def state(**kw):(OUT/'status.json').write_text(json.dumps(dict(updated=time.time(),**kw),indent=2))
@@ -56,9 +59,10 @@ sess=None;fail=[]
 rows=json.loads((R/'clip_manifest.json').read_text())
 # Full and crop remain separate experiments. Daily's ROI equals full image; no duplicate experiment.
 for row in rows:
- for condition in ['full','crop'] if row['id']!='daily' else ['full']:
+ default_conditions=['full','crop'] if row['id']!='daily' else ['full']
+ for condition in args.conditions or default_conditions:
   src=R/'inputs'/row['id']/(condition+'.mp4');pr=probe(src);fps=pr['avg_frame_rate'];fn,fd=map(int,fps.split('/'));hz=fn/fd;N=int(pr['nb_frames']);W,H=pr['width'],pr['height']
-  for model in ['comotion','hmr2']:
+  for model in args.models:
    out=OUT/row['id']/condition/model;out.mkdir(parents=True,exist_ok=True)
    if (out/'verified.json').exists():continue
    try:
@@ -90,6 +94,9 @@ for row in rows:
       ix=by.get(i,[]);return np.asarray(Image.open(p).convert('RGB')),[meshes[k] for k in ix],[faces]*len(ix),[int(d['id'][k]) for k in ix],K
      meta=dict(body_model='SMPL neutral',track_ids=sorted(set(map(int,d['id']))),K=K.tolist(),frameskip=1)
     else:
+     from multihmr2 import api
+     from multihmr2.datasets.itw_image import preprocess_image
+     from multihmr2.utils import denormalize_rgb
      if sess is None:sess=api.init_hmr_session(str(R/'multi-hmr2/checkpoints/multihmr2.pt'))
      t=time.time();preds=api.infer_video(sess,str(src),str(frames),conf_thresh=.4,dist_thresh_nms=.25,lowres=False);torch.cuda.synchronize();runtime=time.time()-t
      paths=sorted(frames.glob('*.png'))
@@ -120,3 +127,4 @@ state(state='waiting_for_render',failures=fail)
 for job in render_jobs:
  if job.wait()!=0:fail.append({'stage':'render','returncode':job.returncode})
 state(state='complete' if not fail else 'completed_with_failures',failures=fail)
+if fail: sys.exit(1)

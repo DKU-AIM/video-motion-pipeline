@@ -1,0 +1,6 @@
+# CoMotion's pyproject leaves these packages unbounded. The repository calls
+# PySceneDetect with an integer frame number, which is compatible with 0.6.x;
+# OpenCV 4.12+ requires NumPy 2 while this stack uses NumPy 1.x.
+numpy==1.26.4
+scenedetect<0.7
+opencv-python<4.12

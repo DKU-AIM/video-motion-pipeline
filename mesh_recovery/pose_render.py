@@ -9,9 +9,6 @@ R=pathlib.Path(os.environ['MOTION_WORKSPACE']).expanduser().resolve();sys.path.i
 from smpl_eval.meshrender import MeshRenderer,track_color,draw_labels
 from smpl_eval.overlay import _font
 from comotion_demo.utils import smpl_kinematics as sk
-from multihmr2 import api
-from multihmr2.datasets.itw_image import preprocess_image
-from multihmr2.utils import denormalize_rgb
 OUT=R/'results';OUT.mkdir(exist_ok=True)
 torch.set_num_threads(4)
 def state(**kw):(OUT/'status.json').write_text(json.dumps(dict(updated=time.time(),**kw),indent=2))

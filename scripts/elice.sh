@@ -9,6 +9,7 @@ case "$COMMAND" in
   help|-h|--help)
     cat <<'HELP'
 Usage: bash scripts/elice.sh <command> [arguments]
+  demo [CLI args]       Run the bounded grounding/CoMotion/MotionGPT demo
   grounding [CLI args]  Run grounding using GROUNDING_PYTHON or python3
   pose                 Run prepared full/crop clips using POSE_PYTHON or python3
   export-motion        Export CoMotion tracks using POSE_PYTHON or python3
@@ -18,6 +19,7 @@ Set MOTION_WORKSPACE to the experiment directory for all except grounding.
 This launcher does not install models or download licensed assets.
 HELP
     exit 0;;
+  demo) exec python3 "$PROJECT_ROOT/scripts/run_motion_demo.py" "$@";;
   grounding) exec "${GROUNDING_PYTHON:-python3}" "$PROJECT_ROOT/grounding/vtg_run.py" "$@";;
   pose) PYTHON_BIN="${POSE_PYTHON:-python3}"; SCRIPT="mesh_recovery/run_pose_batch.py";;
   export-motion) PYTHON_BIN="${POSE_PYTHON:-python3}"; SCRIPT="annotation/motion_captioning/export_motion_inputs.py";;

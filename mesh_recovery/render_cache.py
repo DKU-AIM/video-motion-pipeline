@@ -19,7 +19,9 @@ def getframe(i,p):
  i=indices[i]
  if c['mode']=='comotion':
   ix=c['by'].get(i,[]);return np.asarray(Image.open(p).convert('RGB')),[c['meshes'][k] for k in ix],[c['faces']]*len(ix),[int(c['ids'][k]) for k in ix],c['K'].astype(float)
- r=c['frames'][i];im=mod.denormalize_rgb(mod.preprocess_image(str(p))[0].cpu().numpy());return im,r['vertices'],[c['faces']]*len(r['vertices']),r['ids'].tolist(),r['K'].astype(float)
+ from multihmr2.datasets.itw_image import preprocess_image
+ from multihmr2.utils import denormalize_rgb
+ r=c['frames'][i];im=denormalize_rgb(preprocess_image(str(p))[0].cpu().numpy());return im,r['vertices'],[c['faces']]*len(r['vertices']),r['ids'].tolist(),r['K'].astype(float)
 mod.render(out,paths,display_fps,getframe,c['model'])
 (out/'render_cache.pt').unlink();(out/'error.json').unlink(missing_ok=True)
 print('RENDER_VERIFIED',out,flush=True)
