@@ -1,5 +1,7 @@
 # AIM - Video Motion Pipeline
 
+새 엘리스 인스턴스에서 그라운딩 환경·모델·영상을 준비하려면 [초기 설정 안내](docs/ELICE_BOOTSTRAP.md)를 참고하세요. GitHub clone 후 `bash scripts/bootstrap_elice.sh`로 시작합니다. 실제 새 서버 전체 검증은 진행 전입니다.
+
 <p align="center"><img src="docs/images/aim-team-logo.png" width="240" alt="AIM 팀 로고: 영상 프레임, 메시 캐릭터와 설명 말풍선"></p>
 
 **긴 사람 행동 영상에서 필요한 구간을 찾아, 같은 인물의 설명과 3D 동작을 연결하는 데이터 구축 연구입니다.**
