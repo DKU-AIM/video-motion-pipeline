@@ -1,0 +1,8 @@
+numpy==1.26.4
+transformers==4.57.1
+accelerate==1.10.1
+qwen-vl-utils[decord]==0.0.14
+av==15.1.0
+matplotlib==3.10.6
+gradio==5.49.1
+huggingface-hub==0.36.0

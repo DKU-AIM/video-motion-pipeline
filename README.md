@@ -176,17 +176,27 @@ Find scenes of a person performing a layup.
 
 ## 엘리스에서 빠르게 실행하기
 
-모델은 외부 추론 API가 아니라 **공식 코드·가중치를 서버에 설치하고 GPU에서 직접 실행**합니다. 영상 VLM 후보의 실행 방식은 미정입니다. 가중치·원본 영상은 GitHub에 포함하지 않습니다.
+**인스턴스를 삭제하고 매번 새로 만드는 경우:** [엘리스 새 인스턴스 실행 가이드 · 노션 붙여넣기용](docs/ELICE_GUIDE.md)를 1번부터 따라가세요. 모델별 설치(`install`), 가중치 준비(`assets`), 점검(`check`)을 제공하며 [새 A100 MIG 인스턴스에서 대표 샘플 추론까지 확인했습니다](docs/ELICE_VALIDATION.md).
 
 ```bash
 git clone https://github.com/DKU-AIM/video-motion-pipeline.git
 cd video-motion-pipeline
+export MOTION_WORKSPACE="$HOME/aim-workspace"
+bash scripts/setup_elice.sh system
+bash scripts/setup_elice.sh install all
+bash scripts/setup_elice.sh assets all
+# 가이드에 따라 SMPL 및 기준 모션 파일을 복원한 뒤
+source "$MOTION_WORKSPACE/env.sh"
+bash scripts/setup_elice.sh check all
+```
 
-# 기존 모델 환경이 설치된 실험 폴더를 지정합니다.
-export MOTION_WORKSPACE=/path/to/experiment_workspace
-export POSE_PYTHON="$MOTION_WORKSPACE/pose_env/bin/python"
-export CAPTION_PYTHON="$MOTION_WORKSPACE/env/bin/python"
-export GROUNDING_PYTHON="$HOME/vtg-env/bin/python"
+아래는 환경과 입력 클립이 준비된 뒤의 실행 명령입니다.
+
+모델은 외부 추론 API가 아니라 **공식 코드·가중치를 서버에 설치하고 GPU에서 직접 실행**합니다. 영상 VLM 후보의 실행 방식은 미정입니다. 가중치·원본 영상은 GitHub에 포함하지 않습니다.
+
+```bash
+# 새 SSH 세션에서는 설치기가 만든 설정을 다시 읽습니다.
+source "$HOME/aim-workspace/env.sh"
 
 bash scripts/elice.sh grounding --model timelens-8b --video /path/to/video.mp4 --query "a person passes a ball"
 bash scripts/elice.sh pose
@@ -197,7 +207,7 @@ bash scripts/elice.sh mgllm
 
 필요한 단계만 실행합니다. `pose`는 `clip_manifest.json` 및 `inputs/<id>/full.mp4`, `crop.mp4`가 준비된 환경용입니다. 결과는 작업 폴더의 `results/`, `motion_inputs/`, `results_motiongpt/`, `results_mgllm/`에 저장됩니다. SSH 연결 종료에 대비하려면 `tmux` 세션 안에서 실행합니다.
 
-**새 엘리스 인스턴스에서는 먼저 모델별 공식 설치와 체크포인트 준비가 필요합니다.** 이 스크립트는 설치기가 아니라 기존 실험 실행을 편하게 하는 진입점입니다. CoMotion, Multi-HMR 2 및 캡셔닝의 의존성 충돌을 피하기 위해 환경을 나누며, SMPL 자산은 사용자가 이용 조건에 따라 별도 준비합니다. 자세한 경로 규약은 아래 실행 설명과 공유 검토 문서를 참고하세요.
+**새 엘리스 인스턴스에서는 위 `setup_elice.sh`로 의존성을 설치하고 체크포인트를 준비합니다.** `elice.sh`는 준비된 환경에서 추론을 실행하는 진입점입니다. CoMotion, Multi-HMR 2 및 캡셔닝의 의존성 충돌을 피하기 위해 환경을 나누며, SMPL 자산은 사용자가 이용 조건에 따라 별도 준비합니다. 자세한 경로 규약은 아래 실행 설명과 공유 검토 문서를 참고하세요.
 
 ## 코드 구조와 실행
 
@@ -209,7 +219,10 @@ video-motion-pipeline/
 ├── annotation/
 │   ├── motion_captioning/      # 후보: 동작 → 설명 (실험 코드)
 │   └── video_captioning/       # 후보: RGB 영상 → 설명 (모델 미선정)
+├── scripts/                    # setup_elice.sh 설치 / elice.sh 추론
+├── requirements/elice/         # grounding / pose / caption 환경 버전
 ├── docs/
+│   ├── ELICE_GUIDE.md           # 노션용 새 인스턴스 실행 가이드
 │   └── images/                 # 로고·발표 파이프라인 개념도
 └── SHARING_MANIFEST.json        # 공유본 파일과 원본 코드의 대응
 ```
@@ -252,7 +265,7 @@ python grounding/test_vtg_run.py
 python -m pytest smpl_eval/tests
 ```
 
-그라운딩 테스트는 가짜 GPU/모델을 이용한 호출·파서 검사입니다. 실제 GPU 추론 품질 검증이 아닙니다. 평가 테스트는 `smpl_eval/requirements.txt` 등 필요한 의존성이 준비된 환경에서 실행합니다. 새 환경의 전체 설치·GPU 재추론 검증은 남아 있습니다.
+그라운딩 테스트는 가짜 GPU/모델을 이용한 호출·파서 검사입니다. 실제 GPU 추론 품질 검증이 아닙니다. 평가 테스트는 `smpl_eval/requirements.txt` 등 필요한 의존성이 준비된 환경에서 실행합니다. 새 인스턴스에서 수행한 대표 샘플 GPU 검증 범위는 [검증 기록](docs/ELICE_VALIDATION.md)에 정리했습니다.
 
 ## 현재 구현 상태
 
@@ -299,4 +312,4 @@ GitHub 계정: [jiwoo1105](https://github.com/jiwoo1105), [juhee0223](https://gi
 
 원본·결과 영상, 모델 가중치, SMPL 자산, SSH 키, NAS 접근 정보, 메일 내용을 업로드하지 않습니다. 본 저장소에는 팀 코드·문서·개념도만 포함합니다. 모델 및 데이터의 이용 조건을 별도로 따릅니다.
 
-새 서버에서 전체 모델 설치·GPU 추론을 재검증하는 작업은 남아 있습니다. 실행 환경 준비 여부와 코드 검사를 구분하여 확인하세요.
+새 Ubuntu 22.04 / A100 MIG 20GB에서 대표 샘플 GPU 추론을 확인했습니다. [검증 범위와 한계](docs/ELICE_VALIDATION.md)를 참고하세요. 모든 모델 변형·GPU·영상 길이에 대한 보장은 아닙니다.

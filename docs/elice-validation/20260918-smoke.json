@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-18",
+  "purpose": "Fresh-instance installation and inference smoke test; not an accuracy benchmark",
+  "platform": {
+    "os": "Ubuntu 22.04.5",
+    "python": "3.10.14",
+    "gpu": "NVIDIA A100X MIG 2g.20gb",
+    "driver": "580.173.02"
+  },
+  "input": {
+    "sample_id": "basket_s06",
+    "source_duration_seconds": 3.0,
+    "full_width": 960,
+    "crop_width": 640,
+    "note": "Resized existing experimental clips; multiple people present. Tracks selected by existing exporter, not a manually verified target."
+  },
+  "grounding": {
+    "model": "timelens2-4b",
+    "query": "A person shoots a basketball.",
+    "spans": [
+      [
+        0,
+        2
+      ]
+    ],
+    "latency_seconds": 1.56,
+    "peak_vram_gb": 9.0
+  },
+  "pose_status": {
+    "updated": 1789740107.0527513,
+    "state": "complete",
+    "failures": []
+  },
+  "videos": {
+    "basket_s06/crop/comotion": {
+      "frames": 45,
+      "duration": "3.003000",
+      "decode": "passed"
+    },
+    "basket_s06/crop/hmr2": {
+      "frames": 45,
+      "duration": "3.003000",
+      "decode": "passed"
+    },
+    "basket_s06/full/comotion": {
+      "frames": 45,
+      "duration": "3.003000",
+      "decode": "passed"
+    },
+    "basket_s06/full/hmr2": {
+      "frames": 45,
+      "duration": "3.003000",
+      "decode": "passed"
+    }
+  },
+  "motiongpt": [
+    {
+      "id": "official_reference_012314",
+      "caption": "a person appears to be playing tennis and shoots the ball with the racket in his right hand",
+      "feature_frames": 170,
+      "roundtrip_max_abs_m": null
+    },
+    {
+      "id": "results_basket_s06_full_id1_part0",
+      "caption": "a person jumps and twists in the air.",
+      "feature_frames": 59,
+      "roundtrip_max_abs_m": 3.5762786865234375e-07
+    },
+    {
+      "id": "results_basket_s06_full_id2_part1",
+      "caption": "a person lifts a dumbbell with his right hand.",
+      "feature_frames": 59,
+      "roundtrip_max_abs_m": 2.9802322387695312e-08
+    },
+    {
+      "id": "results_basket_s06_crop_id2_part0",
+      "caption": "a person bends their knees slightly jumps forward and stops.",
+      "feature_frames": 59,
+      "roundtrip_max_abs_m": 5.960464477539063e-08
+    },
+    {
+      "id": "results_basket_s06_crop_id3_part1",
+      "caption": "a person does the chicken dance sequence, then repeats it a second time.",
+      "feature_frames": 59,
+      "roundtrip_max_abs_m": 5.960464477539063e-08
+    }
+  ],
+  "mgllm_output_count": 10
+}

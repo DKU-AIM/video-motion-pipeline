@@ -37,3 +37,6 @@ for p in paths:
   rows.append(dict(id=name,path=str(dst),source_parameters=str(p),track_id=tid,source_fps=fps,target_fps=20,source_frame_start=int(frames[ix[0]]),source_frame_end=int(frames[ix[-1]]),frames=len(res),duration=len(res)/20,coordinate_note='camera-relative trajectory, rotated to y-up; not world-calibrated',selection='longest contiguous tracks, no ID stitching; visual review required',sha256=hashlib.sha256(dst.read_bytes()).hexdigest()))
 (out/'manifest.json').write_text(json.dumps(rows,indent=2))
 print(json.dumps(rows,indent=2))
+
+if not rows:
+ raise RuntimeError("No continuous motion tracks exported; check pose results before captioning.")

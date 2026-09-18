@@ -120,3 +120,7 @@ state(state='waiting_for_render',failures=fail)
 for job in render_jobs:
  if job.wait()!=0:fail.append({'stage':'render','returncode':job.returncode})
 state(state='complete' if not fail else 'completed_with_failures',failures=fail)
+
+# Propagate failures to shell pipelines instead of silently continuing to captioning.
+if fail:
+ raise SystemExit(1)
