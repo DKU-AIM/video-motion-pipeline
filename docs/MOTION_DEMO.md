@@ -11,10 +11,10 @@ cd ~/video-motion-pipeline
 bash scripts/setup_motion_demo.sh --prepare-only --install-system
 ```
 
-CoMotion은 별도로 받은 **SMPL neutral v1.1.0**이 필요합니다. [모션 환경 안내](MOTION_SETUP.md)에 따라 정식으로 받은 파일을 서버에 올린 뒤 등록합니다. 이 파일이 없으면 공개 환경 준비는 가능하지만 메시 추론은 시작할 수 없습니다.
+CoMotion은 **SMPL neutral v1.1.0**이 필요합니다. 공식 사이트에서 가입·이메일 인증·이용 조건 확인을 마친 뒤, [모션 환경 안내](MOTION_SETUP.md)에 따라 엘리스 서버 터미널에서 직접 다운로드합니다. 로컬 컴퓨터를 거칠 필요가 없습니다. 이 파일이 없으면 메시 추론은 시작할 수 없습니다.
 
 ```bash
-bash scripts/setup_motion_demo.sh --smpl /실제/업로드한/SMPL_NEUTRAL.pkl
+python3 scripts/download_smpl.py
 source ~/motion-workspace/activate-motion.sh
 export GROUNDING_PYTHON="$HOME/vtg-env/bin/python"
 python3 scripts/run_motion_demo.py --check
@@ -78,7 +78,7 @@ python3 scripts/run_motion_demo.py \
 - 모델 출력이 비었거나 2초 트랙이 없으면 실패로 표시합니다. 설명 JSON의 공식 HumanML3D 예제는 설치 확인용으로, 기업 영상 결과 화면에서 제외합니다.
 - 실패 시 `status.json`, `logs/<단계>.log`를 확인합니다. 메시 상세 로그는 `results/clip/full/comotion/inference.log`와 `render.log`에 있습니다. 재실행은 새 결과 폴더를 생성하며 실패한 GPU 단계를 자동 재개하지 않습니다.
 
-실제 SMPL 자산을 사용한 전체 GPU 실행은 별도 검증이 필요합니다. CPU 테스트/FFmpeg 테스트의 성공은 모델 추론이나 결과 품질 검증을 대신하지 않습니다.
+2026-09-18 정식 SMPL 자산을 사용한 샘플 전체 GPU 실행과 HTML/ZIP 생성을 확인했습니다. CPU 테스트나 한 번의 연결 실행은 예측 품질 평가를 대신하지 않습니다.
 
 ## 2026-09-18 검증 기록
 
@@ -89,4 +89,8 @@ Elice Python 3.10.14 / A100 MIG 3g.40gb / NVIDIA driver 535.183.06에서 다음�
 - 기본 3D 도형을 실제 OSMesa로 64×64 래스터화하고 CUDA 행렬곱을 확인했습니다. 이것은 사람 메시 추론 결과가 아닙니다.
 - 공식 HumanML3D `012314` 특징을 MotionGPT에 넣어 실제 GPU 캡셔닝 성공. 생성 단계 1.10초, 최대 할당 GPU 메모리 약 1.11GB(모델 다운로드·로딩 시간 제외). 생성된 설명의 정확도를 평가한 실험은 아닙니다.
 - FFmpeg 4.4.2로 테스트 영상을 잘라 길이와 전체 디코딩을 검증했습니다.
-- `setup_motion_demo.sh --check`의 남은 누락 항목은 SMPL neutral 파일입니다. SMPL 파일을 사용한 CoMotion 추론과 **전체 연결 실행·실제 검수 ZIP 생성은 아직 검증하지 못했습니다**.
+- 정식 SMPL 다운로드·등록 후 `setup_motion_demo.sh --check` 전체 통과.
+- `2Y8XQ.mp4`에서 TimeLens-8B → CoMotion → MotionGPT → HTML/ZIP 생성까지 완료. 예측 구간 17~20초, 인물 Track 1, 비교 영상 19프레임의 전체 디코딩 통과.
+- MotionGPT가 생성한 문장은 요청한 음수 행동과 달랐습니다. 이는 파이프라인 연결 검증이며 어노테이션 정확도 검증이 아닙니다.
+
+측정 범위, 원본 출력, 오프라인 결과물 보관 내역은 [상세 검증 기록](VALIDATION_2026-09-18.md)에 정리했습니다.

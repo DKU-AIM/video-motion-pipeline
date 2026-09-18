@@ -2,7 +2,7 @@
 
 새 엘리스 인스턴스에서 그라운딩 환경·모델·영상을 준비하려면 [초기 설정 안내](docs/ELICE_BOOTSTRAP.md)를 참고하세요. GitHub clone 후 `bash scripts/bootstrap_elice.sh`로 시작합니다. 실제 새 서버 전체 검증은 진행 전입니다.
 
-짧은 영상으로 **그라운딩 → CoMotion → MotionGPT → HTML 검수**를 실행하려면 [데모 안내](docs/MOTION_DEMO.md)를 참고하세요. 별도 SMPL 자산이 필요하며, 실제 전체 GPU 추론은 검증 전입니다.
+짧은 영상으로 **그라운딩 → CoMotion → MotionGPT → HTML 검수**를 실행하려면 [데모 안내](docs/MOTION_DEMO.md)를 참고하세요. 정식 SMPL 자산으로 샘플 전체 GPU 실행과 HTML/ZIP 생성을 확인했습니다. [검증 기록과 한계](docs/VALIDATION_2026-09-18.md)를 참고하세요.
 
 <p align="center"><img src="docs/images/aim-team-logo.png" width="240" alt="AIM 팀 로고: 영상 프레임, 메시 캐릭터와 설명 말풍선"></p>
 
@@ -256,7 +256,7 @@ python grounding/test_vtg_run.py
 python -m pytest smpl_eval/tests
 ```
 
-그라운딩 테스트는 가짜 GPU/모델을 이용한 호출·파서 검사입니다. 실제 GPU 추론 품질 검증이 아닙니다. 평가 테스트는 `smpl_eval/requirements.txt` 등 필요한 의존성이 준비된 환경에서 실행합니다. 새 환경의 전체 설치·GPU 재추론 검증은 남아 있습니다.
+그라운딩 테스트는 가짜 GPU/모델을 이용한 호출·파서 검사입니다. 실제 GPU 추론 품질 검증이 아닙니다. 평가 테스트는 `smpl_eval/requirements.txt` 등 필요한 의존성이 준비된 환경에서 실행합니다. 기존 그라운딩 환경과 새 모션 환경을 연결한 샘플 GPU 실행은 확인했습니다. 완전히 새 인스턴스에서 모든 초기 설정을 한 번에 재현하는 검증은 남아 있습니다.
 
 ## 현재 구현 상태
 
@@ -268,7 +268,7 @@ python -m pytest smpl_eval/tests
 | 영상 VLM 설명 생성 | 모델·실행 구현 미선정 |
 | Sliding window 비교 | 검토 중, 공유본에 실행기 없음 |
 | 동일 인물·시간 기반 최종 쌍 저장 | 통합 스키마 및 검수 과정 설계 대상 |
-| 한 번에 실행하는 전체 파이프라인 | 미완성 |
+| 한 번에 실행하는 전체 파이프라인 | 짧은 구간 데모 통합 실행 확인; 전체 영상·품질 평가는 미완료 |
 | 로봇 동작 변환·정책 학습 | 향후 활용 범위 |
 
 ## 향후 활용
@@ -303,4 +303,4 @@ GitHub 계정: [jiwoo1105](https://github.com/jiwoo1105), [juhee0223](https://gi
 
 원본·결과 영상, 모델 가중치, SMPL 자산, SSH 키, NAS 접근 정보, 메일 내용을 업로드하지 않습니다. 본 저장소에는 팀 코드·문서·개념도만 포함합니다. 모델 및 데이터의 이용 조건을 별도로 따릅니다.
 
-새 서버에서 전체 모델 설치·GPU 추론을 재검증하는 작업은 남아 있습니다. 실행 환경 준비 여부와 코드 검사를 구분하여 확인하세요.
+샘플 영상의 통합 GPU 추론은 확인했습니다. 완전히 새 인스턴스의 전체 초기 설정 재현과 기업 영상의 품질 평가는 남아 있습니다. 실행 성공과 예측 정확도를 구분하여 확인하세요.
