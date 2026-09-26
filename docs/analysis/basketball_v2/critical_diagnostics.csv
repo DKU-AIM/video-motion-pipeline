@@ -1,0 +1,9 @@
+model,strict_format_all5,strict_format_nonnegative4,recoverable_all5,incomplete_all5,shot_raw_count,shot_components_gap0,shot_components_gap05,shot_components_gap1,shot_completeness,shot_invalid_count,attribute_outside_general_percent,attribute_diagnostic_usable
+timelens2-4b,5,4,5,0,14,14,14,12,True,0,33.333333333333336,True
+timelens2-8b,5,4,5,0,1,1,1,1,True,0,0.0,True
+timelens-8b,5,4,5,0,30,30,30,27,True,0,15.151515151515149,True
+timelens-7b,1,0,5,0,13,13,13,13,True,0,0.0,True
+time-r1-7b,1,0,5,0,11,11,11,11,True,0,3.436988543371533,True
+time-r1-3b,4,3,5,0,0,0,0,0,True,0,,True
+qwen3-vl-8b,3,2,5,1,98,2,2,2,True,0,1.3392857142857095,True
+qwen2.5-vl-7b,1,0,5,2,91,51,51,51,False,40,49.611307420494676,False

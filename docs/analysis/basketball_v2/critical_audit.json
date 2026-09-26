@@ -1,0 +1,149 @@
+{
+  "definitions": {
+    "strict_format": "Bare JSON array of finite numeric [start,end] arrays. [] passes syntax only; code fences/objects/partial arrays do not.",
+    "gap_components": "Counts on valid in-video intervals; gaps <= threshold merge. Not GT events; gap>0 count does not define temporal coverage.",
+    "attribute_outside_general": "Length(attribute_union minus shot_union)/length(attribute_union); descriptive inconsistency, NOT semantic error rate."
+  },
+  "diagnostics": [
+    {
+      "model": "timelens2-4b",
+      "strict_format_all5": 5,
+      "strict_format_nonnegative4": 4,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 14,
+      "shot_components_gap0": 14,
+      "shot_components_gap05": 14,
+      "shot_components_gap1": 12,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 33.333333333333336,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "timelens2-8b",
+      "strict_format_all5": 5,
+      "strict_format_nonnegative4": 4,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 1,
+      "shot_components_gap0": 1,
+      "shot_components_gap05": 1,
+      "shot_components_gap1": 1,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 0.0,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "timelens-8b",
+      "strict_format_all5": 5,
+      "strict_format_nonnegative4": 4,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 30,
+      "shot_components_gap0": 30,
+      "shot_components_gap05": 30,
+      "shot_components_gap1": 27,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 15.151515151515149,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "timelens-7b",
+      "strict_format_all5": 1,
+      "strict_format_nonnegative4": 0,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 13,
+      "shot_components_gap0": 13,
+      "shot_components_gap05": 13,
+      "shot_components_gap1": 13,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 0.0,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "time-r1-7b",
+      "strict_format_all5": 1,
+      "strict_format_nonnegative4": 0,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 11,
+      "shot_components_gap0": 11,
+      "shot_components_gap05": 11,
+      "shot_components_gap1": 11,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 3.436988543371533,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "time-r1-3b",
+      "strict_format_all5": 4,
+      "strict_format_nonnegative4": 3,
+      "recoverable_all5": 5,
+      "incomplete_all5": 0,
+      "shot_raw_count": 0,
+      "shot_components_gap0": 0,
+      "shot_components_gap05": 0,
+      "shot_components_gap1": 0,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": null,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "qwen3-vl-8b",
+      "strict_format_all5": 3,
+      "strict_format_nonnegative4": 2,
+      "recoverable_all5": 5,
+      "incomplete_all5": 1,
+      "shot_raw_count": 98,
+      "shot_components_gap0": 2,
+      "shot_components_gap05": 2,
+      "shot_components_gap1": 2,
+      "shot_completeness": true,
+      "shot_invalid_count": 0,
+      "attribute_outside_general_percent": 1.3392857142857095,
+      "attribute_diagnostic_usable": true
+    },
+    {
+      "model": "qwen2.5-vl-7b",
+      "strict_format_all5": 1,
+      "strict_format_nonnegative4": 0,
+      "recoverable_all5": 5,
+      "incomplete_all5": 2,
+      "shot_raw_count": 91,
+      "shot_components_gap0": 51,
+      "shot_components_gap05": 51,
+      "shot_components_gap1": 51,
+      "shot_completeness": false,
+      "shot_invalid_count": 40,
+      "attribute_outside_general_percent": 49.611307420494676,
+      "attribute_diagnostic_usable": false
+    }
+  ],
+  "current_source_hash_check": {
+    "grounding/basketball_probe.py": {
+      "at_run": "1b941e6176a2ab87407f7e9a0c395ed0ff7b05c509f7d26ee2269787c576f1b9",
+      "current": "1b941e6176a2ab87407f7e9a0c395ed0ff7b05c509f7d26ee2269787c576f1b9",
+      "matches": true
+    },
+    "grounding/vtg_run.py": {
+      "at_run": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf",
+      "current": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf",
+      "matches": true
+    },
+    "grounding/basketball_batch.py": {
+      "at_run": "d649c1054f31294663236cd0f33600781c3960fbaeb91122a3ae7f1b9ce06566",
+      "current": "6ecd548c391fca38fbccc487703ac370474800cce8db76e28afba140f31f03d7",
+      "matches": false
+    }
+  },
+  "video_sha256_at_run": "98ac45493e0d3a17bf307c62c4482168e5d92ce32edec4378e3634da7cd10a50",
+  "strict_total": 25,
+  "strict_nonnegative": 17
+}

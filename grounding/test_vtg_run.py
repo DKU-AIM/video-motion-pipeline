@@ -322,9 +322,20 @@ g("/tmp/fake.mp4", "Q")
 v = CALLS["messages"][0][-1]["content"][0]
 check(v["total_pixels"] == 8192 * 32 * 32, "total_tokens 오버라이드 반영")
 check(v["fps"] == 1.0, "fps 오버라이드 반영")
+CALLS.clear(); CALLS["fake_output"] = FAKE_ANSWERS["timelens-8b"]
+local_video = "/tmp/men's basketball 한글.mp4"
+g(local_video, "Q")
+video_argument = CALLS["messages"][0][-1]["content"][0]["video"]
+check(video_argument == local_video, "로컬 파일 경로의 작은따옴표·공백·한글을 URI 인코딩 없이 보존")
+
 
 print()
 print("=" * 78)
+CALLS.clear()
+base_qwen = V.Grounder("qwen2.5-vl-7b")
+base_qwen._build_inputs("/tmp/video.mp4", "Q")
+check(CALLS["pvi"][0]["return_video_metadata"] is False, "기본 Qwen2.5는 TimeLens 전용 metadata 경로를 사용하지 않음")
+check(CALLS["processor_call"][0]["videos"] == ["VIDEO"], "기본 Qwen2.5 프로세서에 비디오 텐서만 전달")
 print(" 5. 파서 단위 테스트")
 print("=" * 78)
 cases = [

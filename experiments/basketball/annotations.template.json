@@ -1,0 +1,65 @@
+{
+  "video": "/home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men's_basketball_final.mp4",
+  "duration_s": 222.555667,
+  "time_basis": "seconds from start of the uploaded video, NOT game clock",
+  "policy": "Each visible replay is a separate occurrence. Review entire video before marking reviewed=true. [] with reviewed=false means unknown, not absent.",
+  "queries": [
+    {
+      "id": "shot",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Start at the visible shooting motion; end at visible outcome or shot cut. Do not label dribbling or passing. Count a replay as a separate visible occurrence.",
+      "notes": ""
+    },
+    {
+      "id": "dark_shot",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Same shot boundary rule, but the shooter must visibly wear a dark jersey. No team identity inferred from filename.",
+      "notes": ""
+    },
+    {
+      "id": "free_throw",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Visible free-throw shooting motion through outcome/cut. Presence and count require full review.",
+      "notes": ""
+    },
+    {
+      "id": "bench",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Visible celebratory gesture by bench players, not any bench shot. Start/end with the gesture or shot cut.",
+      "notes": ""
+    },
+    {
+      "id": "closeup",
+      "reviewed": false,
+      "spans": [],
+      "definition": "A player head/shoulders is a prominent subject; not wide court footage. Split at cuts to unrelated scenes.",
+      "notes": ""
+    },
+    {
+      "id": "dunk",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Require visible dunk evidence, not a layup or ordinary jump shot. Presence/count not assumed.",
+      "notes": ""
+    },
+    {
+      "id": "football",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Candidate absent event. Mark as negative only after reviewing the entire video.",
+      "notes": ""
+    },
+    {
+      "id": "swimming",
+      "reviewed": false,
+      "spans": [],
+      "definition": "Candidate absent event. Mark as negative only after reviewing the entire video.",
+      "notes": ""
+    }
+  ],
+  "video_sha256": "98ac45493e0d3a17bf307c62c4482168e5d92ce32edec4378e3634da7cd10a50"
+}
