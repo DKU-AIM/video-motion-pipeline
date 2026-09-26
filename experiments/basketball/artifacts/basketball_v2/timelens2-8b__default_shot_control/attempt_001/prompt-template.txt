@@ -1,0 +1,2 @@
+Given the query: "{}", return ALL time spans (in seconds) where the query is relevant.
+Output format MUST be a JSON array of [start, end] pairs.

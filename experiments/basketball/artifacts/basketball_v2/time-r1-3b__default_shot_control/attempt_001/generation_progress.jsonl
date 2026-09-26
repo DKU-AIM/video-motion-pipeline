@@ -1,0 +1,9 @@
+{"trial": 1, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.030098848044872284, "unix_s": 1790392983.202493}
+{"trial": 1, "event": "token_progress", "generated_tokens": 1, "seconds": 5.456944914069027, "unix_s": 1790392988.6293383}
+{"trial": 1, "event": "token_progress", "generated_tokens": 16, "seconds": 5.9147609528154135, "unix_s": 1790392989.0871544}
+{"trial": 1, "event": "token_progress", "generated_tokens": 32, "seconds": 6.375997111201286, "unix_s": 1790392989.5483906}
+{"trial": 1, "event": "token_progress", "generated_tokens": 48, "seconds": 6.837378154043108, "unix_s": 1790392990.0097716}
+{"trial": 1, "event": "token_progress", "generated_tokens": 64, "seconds": 7.297365533187985, "unix_s": 1790392990.4697587}
+{"trial": 1, "event": "token_progress", "generated_tokens": 80, "seconds": 7.756912163924426, "unix_s": 1790392990.9293053}
+{"trial": 1, "event": "token_progress", "generated_tokens": 96, "seconds": 8.219174171797931, "unix_s": 1790392991.3915677}
+{"trial": 1, "event": "generation_end", "generated_tokens": 97, "seconds": 8.247761618811637, "unix_s": 1790392991.4201548}

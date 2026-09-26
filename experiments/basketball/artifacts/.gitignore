@@ -1,0 +1,2 @@
+# Preserve reviewed experiment logs inside this archive only.
+!*.log

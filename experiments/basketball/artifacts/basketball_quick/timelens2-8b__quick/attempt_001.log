@@ -1,0 +1,11 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001
+
+[load] timelens2-8b  (MCG-NJU/TimeLens2-8B)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.18it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.09it/s]
+[load] 9.0s / VRAM 16.3 GB
+qwen-vl-utils using decord to read video.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trial=1 shot variant=0 ok spans=1 wall=33.41s
+trial=2 bench variant=0 ok spans=2 wall=32.61s
+trial=3 closeup variant=0 ok spans=1 wall=31.47s
+trial=4 football variant=0 ok spans=0 wall=30.97s

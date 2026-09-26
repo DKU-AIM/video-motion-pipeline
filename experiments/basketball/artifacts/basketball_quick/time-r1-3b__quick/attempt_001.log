@@ -1,0 +1,13 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001
+
+[load] time-r1-3b  (Boshenxx/Time-R1-3B)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:22<00:22, 22.84s/it]Fetching 2 files: 100%|██████████| 2/2 [00:30<00:00, 15.21s/it]Fetching 2 files: 100%|██████████| 2/2 [00:30<00:00, 15.21s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[load] 45.5s / VRAM 7.0 GB
+qwen-vl-utils using decord to read video.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trial=1 shot variant=0 ok spans=0 wall=35.26s
+trial=2 bench variant=0 ok spans=0 wall=29.42s
+trial=3 closeup variant=0 ok spans=1 wall=29.70s
+trial=4 football variant=0 ok spans=0 wall=28.75s

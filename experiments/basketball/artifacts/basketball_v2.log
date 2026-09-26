@@ -1,0 +1,34 @@
+16 sessions / 48 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_v2
+[1/16] START timelens2-4b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001.log
+[1/16] SUCCESS timelens2-4b__all_json_5q (180.2 s)
+[2/16] START timelens2-8b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001.log
+[2/16] SUCCESS timelens2-8b__all_json_5q (190.25 s)
+[3/16] START timelens-8b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001.log
+[3/16] SUCCESS timelens-8b__all_json_5q (270.39 s)
+[4/16] START timelens-7b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001.log
+[4/16] SUCCESS timelens-7b__all_json_5q (240.35 s)
+[5/16] START time-r1-7b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001.log
+[5/16] SUCCESS time-r1-7b__all_json_5q (200.34 s)
+[6/16] START time-r1-3b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001.log
+[6/16] SUCCESS time-r1-3b__all_json_5q (190.31 s)
+[7/16] START qwen3-vl-8b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001.log
+[7/16] SUCCESS qwen3-vl-8b__all_json_5q (420.88 s)
+[8/16] START qwen2.5-vl-7b__all_json_5q -> /home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001.log
+[8/16] SUCCESS qwen2.5-vl-7b__all_json_5q (310.72 s)
+[9/16] START timelens2-4b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001.log
+[9/16] SUCCESS timelens2-4b__default_shot_control (50.13 s)
+[10/16] START timelens2-8b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001.log
+[10/16] SUCCESS timelens2-8b__default_shot_control (50.14 s)
+[11/16] START timelens-8b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001.log
+[11/16] SUCCESS timelens-8b__default_shot_control (90.23 s)
+[12/16] START timelens-7b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001.log
+[12/16] SUCCESS timelens-7b__default_shot_control (90.26 s)
+[13/16] START time-r1-7b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001.log
+[13/16] SUCCESS time-r1-7b__default_shot_control (50.14 s)
+[14/16] START time-r1-3b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001.log
+[14/16] SUCCESS time-r1-3b__default_shot_control (70.17 s)
+[15/16] START qwen3-vl-8b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001.log
+[15/16] SUCCESS qwen3-vl-8b__default_shot_control (90.25 s)
+[16/16] START qwen2.5-vl-7b__default_shot_control -> /home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001.log
+[16/16] SUCCESS qwen2.5-vl-7b__default_shot_control (50.11 s)
+Batch finished. Non-success sessions: 0. See /home/elicer/aim-workspace/results_grounding/basketball_v2/progress.md

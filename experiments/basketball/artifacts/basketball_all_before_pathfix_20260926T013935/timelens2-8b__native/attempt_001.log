@@ -1,0 +1,151 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-8b__native/attempt_001
+
+[load] timelens2-8b  (MCG-NJU/TimeLens2-8B)
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:38<01:55, 38.51s/it]Fetching 4 files:  50%|█████     | 2/4 [00:51<00:51, 25.95s/it]Fetching 4 files: 100%|██████████| 4/4 [01:01<00:00, 15.41s/it]Fetching 4 files: 100%|██████████| 4/4 [01:01<00:00, 15.41s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.12s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.03it/s]
+[load] 77.3s / VRAM 16.3 GB
+qwen-vl-utils using decord to read video.
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=1 shot variant=0 error spans=None wall=1.65s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=2 shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=3 dark_shot variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=4 dark_shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=5 free_throw variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=6 free_throw variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=7 bench variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=8 bench variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=9 closeup variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=10 closeup variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=11 dunk variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=12 dunk variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=13 football variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=14 football variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=15 swimming variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=16 swimming variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=17 shot variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=18 shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=19 dark_shot variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=20 dark_shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=21 free_throw variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=22 free_throw variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=23 bench variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=24 bench variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=25 closeup variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=26 closeup variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=27 dunk variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=28 dunk variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=29 football variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=30 football variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=31 swimming variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=32 swimming variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=33 shot variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=34 shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=35 dark_shot variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=36 dark_shot variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=37 free_throw variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=38 free_throw variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=39 bench variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=40 bench variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=41 closeup variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=42 closeup variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=43 dunk variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=44 dunk variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=45 football variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=46 football variant=1 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=47 swimming variant=0 error spans=None wall=0.00s
+[01:37:07] /github/workspace/src/video/video_reader.cc:83: ERROR opening: file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4, No such file or directory
+video_reader_backend decord error, use torchvision as default, msg: Error reading file:///home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men%27s_basketball_final.mp4...
+trial=48 swimming variant=1 error spans=None wall=0.00s

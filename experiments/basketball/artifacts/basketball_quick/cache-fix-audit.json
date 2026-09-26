@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-09-26 02:15:19",
+  "change": "Explicit use_cache=True and token progress streamer; interrupted Time-R1 attempt preserved. Four completed models retained: effective GenerationConfig cache was already enabled. Token streaming instrumentation begins with retried Time-R1.",
+  "completed_model_cache_configs": {
+    "timelens2-4b": {
+      "snapshot": "ddbb6cb944f13ce21e59e85da23c5f356107260e",
+      "use_cache": true
+    },
+    "timelens2-8b": {
+      "snapshot": "afb728d176c1ab919b3ee12e581c1620cbdfa5c0",
+      "use_cache": true
+    },
+    "timelens-8b": {
+      "snapshot": "5557f14bfad6b17379d9cfd68b90aaabdbd7d1a9",
+      "use_cache": true
+    },
+    "timelens-7b": {
+      "snapshot": "1740e2694669a4d03549454ed4af1cd740769f4f",
+      "use_cache": true
+    }
+  }
+}

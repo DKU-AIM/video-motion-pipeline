@@ -1,0 +1,4 @@
+{"trial": 1, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.022807665169239044, "unix_s": 1790393128.3722935}
+{"trial": 1, "event": "token_progress", "generated_tokens": 1, "seconds": 6.630004081875086, "unix_s": 1790393134.9794898}
+{"trial": 1, "event": "token_progress", "generated_tokens": 16, "seconds": 7.10483018681407, "unix_s": 1790393135.4543154}
+{"trial": 1, "event": "generation_end", "generated_tokens": 20, "seconds": 7.224461971782148, "unix_s": 1790393135.5739472}

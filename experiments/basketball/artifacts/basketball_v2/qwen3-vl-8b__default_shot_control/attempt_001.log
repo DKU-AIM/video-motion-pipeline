@@ -1,0 +1,8 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001
+
+[load] qwen3-vl-8b  (Qwen/Qwen3-VL-8B-Instruct)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:26,  8.98s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:20, 10.12s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:30<00:10, 10.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:36<00:00,  8.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:36<00:00,  9.22s/it]
+[load] 42.2s / VRAM 16.3 GB
+qwen-vl-utils using decord to read video.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trial=1 shot variant=0 ok spans=1 wall=34.81s

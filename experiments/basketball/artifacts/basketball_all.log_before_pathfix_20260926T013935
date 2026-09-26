@@ -1,0 +1,7 @@
+72 sessions / 1664 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_all
+[1/72] START timelens2-4b__native -> /home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001.log
+[1/72] FAILED timelens2-4b__native (60.07 s)
+[2/72] START timelens2-8b__native -> /home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-8b__native/attempt_001.log
+[2/72] FAILED timelens2-8b__native (90.14 s)
+[3/72] START timelens-8b__native -> /home/elicer/aim-workspace/results_grounding/basketball_all/timelens-8b__native/attempt_001.log
+Interrupted; rerun the same command to resume.

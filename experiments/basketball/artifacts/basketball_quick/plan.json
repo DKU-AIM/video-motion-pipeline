@@ -1,0 +1,124 @@
+{
+  "video": "/home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men's_basketball_final.mp4",
+  "suite": "quick",
+  "query_ids": [
+    "shot",
+    "bench",
+    "closeup",
+    "football"
+  ],
+  "jobs": [
+    {
+      "id": "timelens2-4b__quick",
+      "model": "timelens2-4b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "timelens2-8b__quick",
+      "model": "timelens2-8b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "timelens-8b__quick",
+      "model": "timelens-8b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "timelens-7b__quick",
+      "model": "timelens-7b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "time-r1-7b__quick",
+      "model": "time-r1-7b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "time-r1-3b__quick",
+      "model": "time-r1-3b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "qwen3-vl-8b__quick",
+      "model": "qwen3-vl-8b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    },
+    {
+      "id": "qwen2.5-vl-7b__quick",
+      "model": "qwen2.5-vl-7b",
+      "condition": "quick",
+      "fps": 1,
+      "max_frames": 256,
+      "total_tokens": 16384,
+      "max_new_tokens": 512,
+      "prompt": "all-json",
+      "repeat": 1,
+      "variants": "first",
+      "expected_trials": 4
+    }
+  ],
+  "planned_trials": 32,
+  "video_sha256": "98ac45493e0d3a17bf307c62c4482168e5d92ce32edec4378e3634da7cd10a50",
+  "queries_sha256": "6d655143d1249b622a98426b1ed63edc060a8017fa598e0ea0f78798be7467ba",
+  "code_sha256": {
+    "grounding/basketball_probe.py": "e5759d4b89c16790deff6b0ebc9a8050a228ba6aa2661347cbfe7136dc9b82ae",
+    "grounding/vtg_run.py": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf",
+    "grounding/basketball_batch.py": "98debb97162e8c73cd15bb3ac8b07f2f29833465ae5d882b39485b1d6607e4a6"
+  }
+}

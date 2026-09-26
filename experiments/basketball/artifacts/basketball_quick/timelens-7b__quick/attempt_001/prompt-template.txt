@@ -1,0 +1,1 @@
+Numbers before each video frame indicate its sampling timestamp in seconds. Find EVERY separate visible occurrence of "{}". Return only a JSON array of [start_seconds, end_seconds] pairs. Do not merge separated occurrences. If none are visible, return [].

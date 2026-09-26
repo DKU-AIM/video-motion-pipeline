@@ -1,0 +1,18 @@
+8 sessions / 40 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_parameters
+[1/8] START timelens2-4b__A_fps05_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001.log
+[1/8] SUCCESS timelens2-4b__A_fps05_tokens32768 (160.19 s)
+[2/8] START timelens-8b__A_fps05_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001.log
+[2/8] SUCCESS timelens-8b__A_fps05_tokens32768 (260.35 s)
+[3/8] START timelens2-4b__B_fps1_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001.log
+[3/8] SUCCESS timelens2-4b__B_fps1_tokens32768 (210.29 s)
+[4/8] START timelens-8b__B_fps1_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001.log
+[4/8] SUCCESS timelens-8b__B_fps1_tokens32768 (320.49 s)
+[5/8] START timelens2-4b__C_fps2_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001.log
+[5/8] SUCCESS timelens2-4b__C_fps2_tokens32768 (320.5 s)
+[6/8] START timelens-8b__C_fps2_tokens32768 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001.log
+[6/8] SUCCESS timelens-8b__C_fps2_tokens32768 (350.65 s)
+[7/8] START timelens2-4b__D_fps1_tokens16384 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001.log
+[7/8] SUCCESS timelens2-4b__D_fps1_tokens16384 (190.34 s)
+[8/8] START timelens-8b__D_fps1_tokens16384 -> /home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001.log
+[8/8] SUCCESS timelens-8b__D_fps1_tokens16384 (230.47 s)
+Batch finished. Non-success sessions: 0. See /home/elicer/aim-workspace/results_grounding/basketball_parameters/progress.md

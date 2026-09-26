@@ -1,0 +1,16 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001
+
+[load] timelens-7b  (TencentARC/TimeLens-7B)
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:47<02:22, 47.56s/it]Fetching 4 files:  50%|█████     | 2/4 [00:53<00:53, 26.92s/it]Fetching 4 files:  75%|███████▌  | 3/4 [01:04<00:21, 21.38s/it]Fetching 4 files: 100%|██████████| 4/4 [01:04<00:00, 16.08s/it]Fetching 4 files: 100%|██████████| 4/4 [01:04<00:00, 16.08s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]
+A new version of the following files was downloaded from https://huggingface.co/TencentARC/TimeLens-7B:
+- processing_timelens.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[load] 77.8s / VRAM 15.4 GB
+qwen-vl-utils using decord to read video.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trial=1 shot variant=0 ok spans=1 wall=42.82s
+trial=2 bench variant=0 ok spans=1 wall=32.98s
+trial=3 closeup variant=0 ok spans=1 wall=43.73s
+trial=4 football variant=0 ok spans=0 wall=32.36s

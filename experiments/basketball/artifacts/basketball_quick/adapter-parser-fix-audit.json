@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-09-26 02:32:49",
+  "changes": {
+    "grounding/basketball_probe.py": {
+      "before": "501b2c445256aacc754a7934a788c86b21c61c2d66f1db4855423bb38b20d80a",
+      "after": "e5759d4b89c16790deff6b0ebc9a8050a228ba6aa2661347cbfe7136dc9b82ae"
+    },
+    "grounding/vtg_run.py": {
+      "before": "abd428bacdf94569b52959cabf92d929804f3c112c145bef28a529eee241da3d",
+      "after": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf"
+    },
+    "grounding/basketball_batch.py": {
+      "before": "bcf53a16728fe1e444d26681ea4f1ef4a1ce95adbd6f6ce94cc8c754395f97fd",
+      "after": "98debb97162e8c73cd15bb3ac8b07f2f29833465ae5d882b39485b1d6607e4a6"
+    }
+  },
+  "reason": "Use model key rather than shared prompt identity for TimeLens-specific processor; recover all saved final spans; preserve raw outputs and mark incomplete generation. Only failed Qwen2.5 rerun."
+}

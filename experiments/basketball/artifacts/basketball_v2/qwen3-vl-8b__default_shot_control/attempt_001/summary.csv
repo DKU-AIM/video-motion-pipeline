@@ -1,0 +1,2 @@
+trial,query_id,variant,repeat,status,parse_status,span_count,invalid_span_count,preprocess_s,generate_s,decode_parse_s,wall_s,input_tokens,output_tokens,hit_output_limit,incomplete_output,legacy_span_count,legacy_discards_spans,peak_allocated_gib,peak_reserved_gib,error
+1,shot,0,0,ok,text_ranges,1,0,28.31978432275355,6.48596004024148,0.0011968365870416164,34.806966225616634,17094,16,False,False,1,False,21.254737377166748,22.390625,

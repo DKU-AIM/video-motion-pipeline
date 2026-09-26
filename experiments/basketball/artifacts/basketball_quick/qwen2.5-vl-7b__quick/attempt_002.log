@@ -1,0 +1,12 @@
+Results: /home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002
+
+[load] qwen2.5-vl-7b  (Qwen/Qwen2.5-VL-7B-Instruct)
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.07it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.16it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.17it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.38it/s]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[load] 13.6s / VRAM 15.4 GB
+qwen-vl-utils using decord to read video.
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+trial=1 shot variant=0 ok spans=24 wall=49.18s
+trial=2 bench variant=0 ok spans=1 wall=33.65s
+trial=3 closeup variant=0 ok spans=14 wall=38.79s
+trial=4 football variant=0 ok spans=0 wall=32.88s

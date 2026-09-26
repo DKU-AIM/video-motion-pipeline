@@ -1,0 +1,3255 @@
+{
+  "archived_at_utc": "2026-09-26T04:37:20.344660+00:00",
+  "source_workspace": "/home/elicer/aim-workspace",
+  "repository_commit_before_archive": "b81180e44d09969bc31245b094d754e3132a9f37",
+  "files": [
+    {
+      "path": "basketball_all/all_trials.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/all_trials.csv",
+      "source_mtime_utc": "2026-09-26T01:43:48.716913+00:00",
+      "bytes": 1894,
+      "sha256": "bb8ace3168c5a033c19e4f424959efcd071b65151762b4c8b88188c777884ab6"
+    },
+    {
+      "path": "basketball_all/plan.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/plan.json",
+      "source_mtime_utc": "2026-09-26T01:39:36.186716+00:00",
+      "bytes": 21325,
+      "sha256": "60817272dfba193e1b4166173cbe1b99de3eb5e5b3507fea6cd0ec981991927b"
+    },
+    {
+      "path": "basketball_all/progress.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/progress.md",
+      "source_mtime_utc": "2026-09-26T01:43:48.720913+00:00",
+      "bytes": 3826,
+      "sha256": "85ab2821d1462c645f9dfd66b24e2be2335aa122c6ee1884a3fa7437a85ed5c8"
+    },
+    {
+      "path": "basketball_all/state.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/state.json",
+      "source_mtime_utc": "2026-09-26T01:43:48.716913+00:00",
+      "bytes": 1348,
+      "sha256": "0b2e9d73a21fb0e6aa0d3b45991d1bb86271e86bd415af5f365ea6a35118c805"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:39:40.566754+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:39:40.566754+00:00",
+      "bytes": 2610,
+      "sha256": "a13d21664cfe051c7b97490598186cf5feb6761483356257a956facf0bfd9423"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:39:50.082836+00:00",
+      "bytes": 115,
+      "sha256": "f5977ec794b3bd1121d095d33082ce89bf87720ba10d8cc8bda04d32ec6a1219"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:39:40.206750+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:39:50.082836+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:43:47.988906+00:00",
+      "bytes": 98859,
+      "sha256": "08272474b241188bc85f359fcec1bdb8b7dd3304b558035338412070650aa593"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:43:33.732782+00:00",
+      "bytes": 5849,
+      "sha256": "73eaceb5e434e18f4f97f69a9ce87767718b74e15cf640708e07a4473b4dfe3f"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:39:39.182742+00:00",
+      "bytes": 3909,
+      "sha256": "442e27b0ba2aced1486ddcccce42e218634c61d872b9fd618123a30d5597efb6"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:43:33.732782+00:00",
+      "bytes": 1271,
+      "sha256": "4b86a14346ab40326c5b3d4b028a875f831555f579ce7fe2cf17fe3132c742f1"
+    },
+    {
+      "path": "basketball_all/timelens2-4b__native/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all/timelens2-4b__native/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:43:33.732782+00:00",
+      "bytes": 1048,
+      "sha256": "e6f5a33431c9b57dea881891cec1194fca97dcdd90ec2324ffde217eb00af707"
+    },
+    {
+      "path": "basketball_all.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all.log",
+      "source_mtime_utc": "2026-09-26T01:43:48.716913+00:00",
+      "bytes": 281,
+      "sha256": "c7223628f2d28daa5b05425cc23a918b2342770d14b2fa2b937b4eb6e18cfe2d"
+    },
+    {
+      "path": "basketball_all.log_before_pathfix_20260926T013935",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all.log_before_pathfix_20260926T013935",
+      "source_mtime_utc": "2026-09-26T01:37:50.345799+00:00",
+      "bytes": 637,
+      "sha256": "4894357658c933171f3c01715f4cbb48d7493a05dd74a947c58d16fc9824be23"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/all_trials.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/all_trials.csv",
+      "source_mtime_utc": "2026-09-26T01:37:50.357800+00:00",
+      "bytes": 17241,
+      "sha256": "6cc38917044568e6d90e00532aaa0265b5eaa0143381477104f62bb52d550409"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/plan.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/plan.json",
+      "source_mtime_utc": "2026-09-26T01:34:40.908170+00:00",
+      "bytes": 21325,
+      "sha256": "a85c60accdbe81558ccaccb24877094a2db5a69a49f2fde5c258b4d5b90cd647"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/progress.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/progress.md",
+      "source_mtime_utc": "2026-09-26T01:37:50.357800+00:00",
+      "bytes": 3836,
+      "sha256": "f052fda8abc0e76c158d28f0faee161978914305c4433359e30465265b252083"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/state.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/state.json",
+      "source_mtime_utc": "2026-09-26T01:37:50.345799+00:00",
+      "bytes": 4060,
+      "sha256": "5a19e5b52f7a9d1268a6b6c71d855b18be611d18dfd44993b54ef0fe24b6ee4f"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:37:18.693526+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:37:18.689526+00:00",
+      "bytes": 2610,
+      "sha256": "ac3d349ed849a0d0abb8bbea1907fefca7464ed42100bff77d93f54e6be2b371"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:37:18.329523+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:37:49.569793+00:00",
+      "bytes": 12697,
+      "sha256": "e2e0187d18c3dc1310cae95532f0f270b66a64c12fc2c2381e0f0aed21e5528e"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:37:17.241513+00:00",
+      "bytes": 3909,
+      "sha256": "4116386853918f96ee1b41d7380d4b250f3bf65b4ae431f6db1f2f47ffeb9bf8"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens-8b__native/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:37:25.657586+00:00",
+      "bytes": 203,
+      "sha256": "2bc5c6a8119d42da9f5c2c2d3bfb67559fb6b082aed62c802fa78b5056be5aa9"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:34:44.956204+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:34:44.948204+00:00",
+      "bytes": 2610,
+      "sha256": "b46157c82a3cb5e57f7080c06f2e96c6547fe68dddc707e6ac05ac71a8c0de94"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:35:31.316602+00:00",
+      "bytes": 115,
+      "sha256": "e4662e2535502c77de4fe0d7963bc673f472171d31f1ef209c0097e4cb196587"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:34:44.596201+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:35:31.320602+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:35:31.784606+00:00",
+      "bytes": 19132,
+      "sha256": "077f08fc3a620c818872eaf68bdc025ecbd472147e5d20df19cde6447d585b6e"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:35:31.440603+00:00",
+      "bytes": 17055,
+      "sha256": "8b88ff8b6eb1f280967415003bd22dcb4bdf749c111bd16e3dae0c8924addf5f"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:34:43.620193+00:00",
+      "bytes": 3909,
+      "sha256": "442e27b0ba2aced1486ddcccce42e218634c61d872b9fd618123a30d5597efb6"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:35:31.440603+00:00",
+      "bytes": 5137,
+      "sha256": "c429ffbb6ef169055bcf0e4372df04d7f2f7a44b1a72d91fae8efad823db9735"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-4b__native/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:35:31.440603+00:00",
+      "bytes": 21619,
+      "sha256": "e48ea864e8a9fc0daceac2e296c07cc630fca8936f7d8260a8418e000c504761"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:35:45.408723+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:35:45.404723+00:00",
+      "bytes": 2610,
+      "sha256": "c1999eb71e10582e41af7363fa9e77d43f2cfff2726c7ce9c68757443b786ca9"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:37:05.717414+00:00",
+      "bytes": 115,
+      "sha256": "c9857b0d20c70909ac9503b99aef897af0f5e71fb0bca303f8d37bfe6af8ce8b"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:35:45.032720+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:37:05.717414+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:37:07.281428+00:00",
+      "bytes": 32980,
+      "sha256": "0d6cb7ce4bafdab6b3de125b90129ed6c99648bd535955f8c4e582127a52d530"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:37:07.473429+00:00",
+      "bytes": 17244,
+      "sha256": "bb1974a531a6a94c7394519651ad3fcdc88f3065572f562d92103a4138524c8a"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:35:44.000711+00:00",
+      "bytes": 3909,
+      "sha256": "253e2ebbb64ed6339954aa7597e43edbeaffff639bcfa8fbf49428c6b4eeb29a"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:37:07.473429+00:00",
+      "bytes": 5322,
+      "sha256": "2afb1c5648d84a64abdc0a7bea7f35869694775f2f90a85a409a4568c1f86ba8"
+    },
+    {
+      "path": "basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_all_before_pathfix_20260926T013935/timelens2-8b__native/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:37:07.473429+00:00",
+      "bytes": 21858,
+      "sha256": "bafdf524f14ac1e330a43a07542d0add5121bacf2ace54aacca550586a85d9a5"
+    },
+    {
+      "path": "basketball_parameters/all_responses.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/all_responses.jsonl",
+      "source_mtime_utc": "2026-09-26T04:16:38.151257+00:00",
+      "bytes": 50590,
+      "sha256": "102cab032afed2457d6ea7f39e73de6f771d224740f51e7e8536f1951fc51497"
+    },
+    {
+      "path": "basketball_parameters/all_trials.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/all_trials.csv",
+      "source_mtime_utc": "2026-09-26T04:16:38.139257+00:00",
+      "bytes": 17895,
+      "sha256": "0fed27f9b285675ada6a91e0072674960abac0b9df296ab26cfd4d83f44a7f18"
+    },
+    {
+      "path": "basketball_parameters/comparison.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/comparison.md",
+      "source_mtime_utc": "2026-09-26T04:16:38.143257+00:00",
+      "bytes": 8785,
+      "sha256": "2128e82c9042af56473019f517db0f918151eeada9c59e4bf5acd525f1677896"
+    },
+    {
+      "path": "basketball_parameters/parameter_summary.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/parameter_summary.md",
+      "source_mtime_utc": "2026-09-26T04:16:38.151257+00:00",
+      "bytes": 1389,
+      "sha256": "efad328eb8267711547dad6c79e987f02640f2215b14f8c602078205168c32d1"
+    },
+    {
+      "path": "basketball_parameters/plan.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/plan.json",
+      "source_mtime_utc": "2026-09-26T03:42:34.770423+00:00",
+      "bytes": 4414,
+      "sha256": "c7f715079aeea9cd2578035954fb3214b62aba67f93293816e47a97d1e806208"
+    },
+    {
+      "path": "basketball_parameters/progress.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/progress.md",
+      "source_mtime_utc": "2026-09-26T04:16:38.139257+00:00",
+      "bytes": 880,
+      "sha256": "9ce38d5f16b6b8b25023822f9f01e5b41fda054c3ee871ed7c881275dd45fe72"
+    },
+    {
+      "path": "basketball_parameters/state.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/state.json",
+      "source_mtime_utc": "2026-09-26T04:16:38.123256+00:00",
+      "bytes": 11057,
+      "sha256": "2798810702c6b60f2ddef24c002c11931ff5537de019133ed535e076477474b1"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:45:18.504283+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:49:24.126940+00:00",
+      "bytes": 8491,
+      "sha256": "edee453d2cf525fcbe8a134f5843e90783a0e0f75dfbb4dccfc6ba3c46ff8fbf"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:45:18.496283+00:00",
+      "bytes": 2610,
+      "sha256": "5b5189f1ae3fa61315e6b0f09696efb69df4b323ca756418ed4cdc43bed30e98"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:46:01.548759+00:00",
+      "bytes": 177,
+      "sha256": "a79807e7f572a179948b57e1469f9bc871e6b02cb963f3127f79394f824365ab"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:45:18.120279+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:46:01.548759+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:49:24.274942+00:00",
+      "bytes": 98125,
+      "sha256": "254279e5c471eb0eb1f3b8f54124840313aeed7cc86be176f020e372d8f5ca50"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:49:24.126940+00:00",
+      "bytes": 5812,
+      "sha256": "1ed43095a271af5de98a46016f39ef701e682fa975f600c59487591d6934f691"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:45:17.204269+00:00",
+      "bytes": 3977,
+      "sha256": "6c20a468da027f924c47ec8a5c8df3988629ac747c0afeb16c4e22c54392fb11"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:49:24.126940+00:00",
+      "bytes": 1111,
+      "sha256": "203d935892de38e6f863ef2e29c8b6d88dc91e115936309d4b1714d993530afb"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__A_fps05_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:49:24.126940+00:00",
+      "bytes": 1138,
+      "sha256": "e657233885e87c7b7809a1874ffbe99e69c0ba92c5b617c7130fd93fb3184b43"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:53:09.865288+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:58:18.952415+00:00",
+      "bytes": 9107,
+      "sha256": "61bcc97f05adaffe226c4e1c8c2be14cb1bd0b5ee8482652a905255cf3920ed7"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:53:09.861289+00:00",
+      "bytes": 2610,
+      "sha256": "124ec423b86eda03358059dfee79a27d339accd3cb1f5b7a9b7a8c48f97a77bf"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:53:51.313713+00:00",
+      "bytes": 178,
+      "sha256": "f1014902344aac4be41a80b7813705f5374478ce18ece9ca32768b642ec886ca"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:53:09.481285+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:53:51.313713+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:58:19.196418+00:00",
+      "bytes": 122680,
+      "sha256": "fd936f68ef0a4c27bdae1f0218a25c73cce741c57cbbffa905eaae68e4157030"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:58:18.952415+00:00",
+      "bytes": 5993,
+      "sha256": "d596695ae3f9bb74673be28827c04b4eafa4e4e430b2e08efa2a279be899d638"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:53:08.573275+00:00",
+      "bytes": 3976,
+      "sha256": "7ca388c66d3b1599738af421d234e1d92eebf2e37a927fb0f566d90b39563d49"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:58:18.952415+00:00",
+      "bytes": 1104,
+      "sha256": "9a14b89c40a7d6ee69d88aa2b08fc2bccf5279ccccde048e02634272158a6bed"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__B_fps1_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:58:18.952415+00:00",
+      "bytes": 1137,
+      "sha256": "81484027ed7070251d1eed715bdb2b3ee056d6c712a16b16f8e5c7a13c866f5c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T04:03:50.863707+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T04:09:31.763052+00:00",
+      "bytes": 9609,
+      "sha256": "a538ec12a09a2e1a009193cd1e19880e9de92f56089b5ee991838bedc93b94a2"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T04:03:50.859707+00:00",
+      "bytes": 2610,
+      "sha256": "72aaa7fc27c6f875abaffa53cdca14a51bf84c5ea0fe7594aa1efcfa44d09a96"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T04:04:02.747824+00:00",
+      "bytes": 178,
+      "sha256": "74cdb315d804621d5beef5f1317cc13e9dd4b58f1ba519be5c92afb1031bb11c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T04:03:50.523704+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T04:04:02.747824+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T04:09:32.163055+00:00",
+      "bytes": 135445,
+      "sha256": "bc3b80227264535108e02379da3ba096e6211194b95b392718ead6e17375d276"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T04:09:31.763052+00:00",
+      "bytes": 6137,
+      "sha256": "e28ec6fb072b17110d08c6d166345acec93efcf2371be5b0295a75a5af265d70"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T04:03:49.475694+00:00",
+      "bytes": 3976,
+      "sha256": "0cc759a80df9a5c1573a77204f204c298c198a14d64030fc7573c20ddccf19a2"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T04:09:31.763052+00:00",
+      "bytes": 1099,
+      "sha256": "3728e3008aba7eadf07ee73a347fbaa8a719e616df6eb7d236b4143135db4e7a"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__C_fps2_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T04:09:31.763052+00:00",
+      "bytes": 1136,
+      "sha256": "1bf28e1201ba67d97dc9984decc0ad1ad053864aa52ba0a4dc65016bfc4954a6"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T04:12:51.841004+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T04:16:29.759158+00:00",
+      "bytes": 8853,
+      "sha256": "8fff6d086566a1685e2c6819fc759f449f0bc12d972824056f0baddba360cbf6"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T04:12:51.841004+00:00",
+      "bytes": 2610,
+      "sha256": "e7b3fac1799dee316b9334ee949d2d5e3e38119ed117917d566fe0148d71b041"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T04:13:03.197115+00:00",
+      "bytes": 178,
+      "sha256": "ca0744aab134b7b31aab7e91e02b4b76794a0db862a6f3b701b6f73306ad4ae3"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T04:12:51.461001+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T04:13:03.197115+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T04:16:29.987160+00:00",
+      "bytes": 86813,
+      "sha256": "bae7888313e09bb6c614ea629de2a74f952f6b91edcebbe1ebe4ca4fa8df4652"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T04:16:29.759158+00:00",
+      "bytes": 5861,
+      "sha256": "0a85325b3e9fc34d9e56fd6eaaf9dd29050eb3c417495e94a586499808c1dd65"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T04:12:50.420990+00:00",
+      "bytes": 3976,
+      "sha256": "93054eb4e78fe9a0145526521caf88e0ab8d0ba460a7cea8350e5822a2383aa8"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T04:16:29.759158+00:00",
+      "bytes": 1076,
+      "sha256": "a476532496e189a94814865a9cd0a81df95c1dcefb83c9515947bb2ca12f4c08"
+    },
+    {
+      "path": "basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens-8b__D_fps1_tokens16384/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T04:16:29.759158+00:00",
+      "bytes": 1136,
+      "sha256": "d37c7c8f86305e7cd35c6eead1b92542ad50e2dc98b1560b30994a8dddef5de7"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:42:38.830470+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:45:12.028211+00:00",
+      "bytes": 4091,
+      "sha256": "a1519b6450f7ff2062a89ec191d8bad31dd2a2015a01f0bdaa4bbd5d816d1a04"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:42:38.826470+00:00",
+      "bytes": 2610,
+      "sha256": "171dcc6108e0df8f001ee4c3847cce1cbc81dff2bba935ee947fe8c1ec036e79"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:42:48.438582+00:00",
+      "bytes": 178,
+      "sha256": "ede0097b19d048203f0489c7b13eba024032b4428d712e49c9a0f2048bb44ea1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:42:38.466466+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:42:48.442582+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:45:11.480205+00:00",
+      "bytes": 61227,
+      "sha256": "b9c7b9f0576ee575a7062372c708334ba7886e0fa8fe17009f138a9ea4b71dac"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:45:12.028211+00:00",
+      "bytes": 4677,
+      "sha256": "74f7807cf23d97d44b23711712d0d93859ae473d903a3bd6b5d38ed61362ed1e"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:42:37.434454+00:00",
+      "bytes": 3977,
+      "sha256": "a1f755cbb84d8a4cc3550f2d7653f62736537fe73f4a01a8b3560a340ba787d1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:45:12.028211+00:00",
+      "bytes": 1100,
+      "sha256": "58378b8118f6f4d5df1ab13620507b6dcff1513facd3097a173341bdb7251f02"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__A_fps05_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:45:12.028211+00:00",
+      "bytes": 966,
+      "sha256": "dcc1b46c8e79a4fab63fe7c77ec8c31594479b739e536b4e4306bf865fc33794"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:49:42.935139+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:53:04.649235+00:00",
+      "bytes": 2717,
+      "sha256": "069bc31aa784c238b815bf0503d01a6b2031544a1044d8f2f6065b7a9ff98c0e"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:49:42.935139+00:00",
+      "bytes": 2610,
+      "sha256": "31ba16059e676890f1e7c24c29c6954dd228e2c64bfe65a96bc0593faf3399fa"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:49:57.103288+00:00",
+      "bytes": 178,
+      "sha256": "a1a85cd26788216c5a0bb9eef5ea5c9377cceacf113b99743c65ed8c6bcc73d9"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:49:42.507134+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:49:57.103288+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:53:04.329232+00:00",
+      "bytes": 80028,
+      "sha256": "027be706590779096d4c2ac955dc1cbd77b8812d32627039de462304fca076a5"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:53:04.649235+00:00",
+      "bytes": 4117,
+      "sha256": "a1c5b74f8c467793eff7bac7d3fa837865b21064725cbe4862c0f54eeea40502"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:49:41.571125+00:00",
+      "bytes": 3976,
+      "sha256": "0e0df9333fce92316dfff1718ce2043803369e2e02f45cb397e5e7a664e549b0"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:53:04.653235+00:00",
+      "bytes": 1100,
+      "sha256": "61d9c68d405f0b441d7103ee50394bbaeb8aedcd1d1eb867be84b2cc22aae097"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__B_fps1_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:53:04.653235+00:00",
+      "bytes": 964,
+      "sha256": "c77359f515b2d1574c8b49bef7b41e6095cf8639deb60adba6b5b11bd4e6f66c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:58:30.524531+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T04:03:37.655577+00:00",
+      "bytes": 3228,
+      "sha256": "8ba415da0ab14b159f03062e4e72a5d2149bde364875ec46a1d3bd38f43b7306"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:58:30.520531+00:00",
+      "bytes": 2610,
+      "sha256": "5d9ab912d4c34c385a778239799b52e358e8fdc4cc2f42ed891691faae0508c7"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:59:13.364959+00:00",
+      "bytes": 179,
+      "sha256": "7fd48340b5529ed8baca73698b57557abf94f65ff399fa8b96c048c891d2ca77"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:58:30.144527+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:59:13.364959+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T04:03:37.159572+00:00",
+      "bytes": 121793,
+      "sha256": "54b7b6fb7bea58c4178996890bdc6740e168089f09b6c48a963c33b2588333c5"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T04:03:37.655577+00:00",
+      "bytes": 4299,
+      "sha256": "32e4e0d8f78629bcb05e0f60832888ac24b6b9dcd7c9f35f07119a7355269268"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:58:29.140517+00:00",
+      "bytes": 3976,
+      "sha256": "24fa7e103341dfda9768f0e4bebdabb5e8a05aa9de04ec35d066c029e64deb2c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T04:03:37.655577+00:00",
+      "bytes": 1105,
+      "sha256": "063c2bc9415928987c270450b4d2e222f7ae92d345ff7a03b41a1689f860326a"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__C_fps2_tokens32768/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T04:03:37.655577+00:00",
+      "bytes": 965,
+      "sha256": "9c865620302de752394bd700847e488dd1f5744e867ac7d9228fb42fa724833f"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T04:09:41.155143+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T04:12:39.928888+00:00",
+      "bytes": 3715,
+      "sha256": "bb03bfa156054ad9c4876a105eed09eb16e334a17c6830d277d2e7cd003936ac"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T04:09:41.151143+00:00",
+      "bytes": 2610,
+      "sha256": "636775227823ebde477f7ed64da2b03acbf919fce7ea649dff3fff41113a019e"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T04:09:59.767325+00:00",
+      "bytes": 178,
+      "sha256": "7101de8a4a7ce1cbdd0e84027216150a9225a36f6e3fda55b4a39b82ed1a51dd"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T04:09:40.775140+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T04:09:59.767325+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T04:12:39.504884+00:00",
+      "bytes": 70977,
+      "sha256": "7c55caddf2b5c718b4a179f2daaa0ab1b71a822aac5955fbaf8f2bd20c741039"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T04:12:39.928888+00:00",
+      "bytes": 4534,
+      "sha256": "ac2d471de6fb064509e650c7b60bee0e7bd8902fe41ed43cb8beaee84001c49e"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T04:09:40.071133+00:00",
+      "bytes": 3976,
+      "sha256": "b2ccbc0f28f57666de67496986e1bfb27b73cd6abdfd2c028156a6c38795a981"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T04:12:39.928888+00:00",
+      "bytes": 1101,
+      "sha256": "1b3e6a9d1a259bf7b860744c32435027de23f47cf097d0e0d097f05e5820e2b4"
+    },
+    {
+      "path": "basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters/timelens2-4b__D_fps1_tokens16384/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T04:12:39.928888+00:00",
+      "bytes": 966,
+      "sha256": "a1d887ae071bd40f31a1dd4da4e37c14a5b42059a21f38196e404ba93989d38f"
+    },
+    {
+      "path": "basketball_parameters.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_parameters.log",
+      "source_mtime_utc": "2026-09-26T04:16:38.151257+00:00",
+      "bytes": 1997,
+      "sha256": "f7ed2b0e9234fab021f900fcdef305e77673b8a23043d4b2161a953058f3f18d"
+    },
+    {
+      "path": "basketball_quick/adapter-parser-fix-audit.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/adapter-parser-fix-audit.json",
+      "source_mtime_utc": "2026-09-26T02:32:49.240758+00:00",
+      "bytes": 894,
+      "sha256": "74998e4cd6fc968541edb09f960445eff5ad7655bee833984d7e274b86169c90"
+    },
+    {
+      "path": "basketball_quick/all_responses.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/all_responses.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.299544+00:00",
+      "bytes": 42395,
+      "sha256": "86587cbbc9c11af327d203a0e596e98c6566122694202010b8b4c14aa525e458"
+    },
+    {
+      "path": "basketball_quick/all_trials.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/all_trials.csv",
+      "source_mtime_utc": "2026-09-26T02:36:33.295544+00:00",
+      "bytes": 12664,
+      "sha256": "5a8e28667213248b0c4e5a875b241b56440826e6a826dd25383c755fdd0f1e4c"
+    },
+    {
+      "path": "basketball_quick/cache-fix-audit.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/cache-fix-audit.json",
+      "source_mtime_utc": "2026-09-26T02:15:19.782979+00:00",
+      "bytes": 793,
+      "sha256": "dadb20b69d02455968c85a4d48f71c52651b39e1b4724a689ac8406a056506ec"
+    },
+    {
+      "path": "basketball_quick/comparison.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/comparison.md",
+      "source_mtime_utc": "2026-09-26T02:36:33.295544+00:00",
+      "bytes": 6088,
+      "sha256": "3deeef91659a74302c7d71b1df60c8b6f4a086eb871683358316ed505fdc44f5"
+    },
+    {
+      "path": "basketball_quick/final_summary.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/final_summary.md",
+      "source_mtime_utc": "2026-09-26T02:36:33.467546+00:00",
+      "bytes": 1105,
+      "sha256": "bb376cf5b55463203d50ed4399aea4d39d31e65af99e5db979685551e789b0e8"
+    },
+    {
+      "path": "basketball_quick/plan.before-adapter-parser-fix.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/plan.before-adapter-parser-fix.json",
+      "source_mtime_utc": "2026-09-26T02:32:49.240758+00:00",
+      "bytes": 3188,
+      "sha256": "1b439c8a71618978d78392517a9c51eb437c15403627f159c200ae83de4d29f4"
+    },
+    {
+      "path": "basketball_quick/plan.before-cache-fix.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/plan.before-cache-fix.json",
+      "source_mtime_utc": "2026-09-26T02:15:19.782979+00:00",
+      "bytes": 3188,
+      "sha256": "c3599bc46c020fce999df887f0533b9b50492e015f5744c87b529d2ba2c3df4c"
+    },
+    {
+      "path": "basketball_quick/plan.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/plan.json",
+      "source_mtime_utc": "2026-09-26T02:32:49.240758+00:00",
+      "bytes": 3188,
+      "sha256": "5288b57f8c9cabff6fa5131f11e68cce7888b140f9142c1d2f04d8398dd4a2cf"
+    },
+    {
+      "path": "basketball_quick/progress.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/progress.md",
+      "source_mtime_utc": "2026-09-26T02:36:33.295544+00:00",
+      "bytes": 772,
+      "sha256": "dcace71835557bcdc8fc4f1ec752cfeceb5e058b73098016bfb34e62155062bf"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:25:14.636563+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:25:14.632563+00:00",
+      "bytes": 2610,
+      "sha256": "6f1515f5b6a8a2855a6a729f2a18fdb38a489aa479ace308d63010dd65db9149"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:26:16.033132+00:00",
+      "bytes": 178,
+      "sha256": "732f11b3042dcc4dafcf41e69eec498d0594307411868bd3ea8e5d794fb4b5cf"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:25:14.272560+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:26:16.033132+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:27:58.658081+00:00",
+      "bytes": 65560,
+      "sha256": "a5756b2ded87361b9edfbcc4af0b301f2d283573a620a2a53abf96476e2b368a"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:27:58.394078+00:00",
+      "bytes": 1440,
+      "sha256": "dcc555f626dd33c009fcb331306685587ab565fe335c0777b22e547988330e52"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:32:25.704541+00:00",
+      "bytes": 1440,
+      "sha256": "dcc555f626dd33c009fcb331306685587ab565fe335c0777b22e547988330e52"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:25:13.592554+00:00",
+      "bytes": 3949,
+      "sha256": "5e704a680c504e7736e1ccb4fcac26d133fcdaf647490dee3f850b25b7dfa823"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:27:58.394078+00:00",
+      "bytes": 674,
+      "sha256": "fbf27ab1a050f84f29402b08cfc658888233e2797f815cb1bffb51ebb6337006"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:27:58.394078+00:00",
+      "bytes": 1854,
+      "sha256": "3e60f23e7dfac5e5a6bf31be175131a679af3439eb6ef27db8a5def1586e97e6"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:32:53.716799+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:35:44.294896+00:00",
+      "bytes": 8113,
+      "sha256": "1a16f6dabc01baa2f7d40b86b2d7aa16bd61d275e4404ca649a24ef754f2e81c"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:32:53.712799+00:00",
+      "bytes": 2610,
+      "sha256": "0fcfda0b9b0df83cc8ce33debaf58040605da9a237a18dbedc58686eb674f95a"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/load.json",
+      "source_mtime_utc": "2026-09-26T02:33:09.788947+00:00",
+      "bytes": 179,
+      "sha256": "0b353a0b80c705f24d7a76fb229e5eb5e38fd868636cd358bf91ec752b96def0"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:32:53.304795+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:33:09.788947+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:35:43.886891+00:00",
+      "bytes": 68032,
+      "sha256": "46c58c69edeb3cd48f6e40d91f92266a0c892f3d291c957e0b90bdfaa1d3672f"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:35:44.294896+00:00",
+      "bytes": 5312,
+      "sha256": "d5bd2d6188a8659ec6b0c7cb763c688b68c33fa163d8c55a3e2880341ad7e12e"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.291544+00:00",
+      "bytes": 6351,
+      "sha256": "f5a479bb1a22c40ce819f801414bd0184e20109c1dab51ad95d65f8f296ac681"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/settings.json",
+      "source_mtime_utc": "2026-09-26T02:32:52.268786+00:00",
+      "bytes": 3949,
+      "sha256": "1e3a40e5e94ff95a00d822cece64cc1dd03fd11a76560f2ff4ea6a85ad9a49a4"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:35:44.294896+00:00",
+      "bytes": 857,
+      "sha256": "2bc1b3786343cbdd3074d45955a1106d037c8d408575dac3abe38efb1f34e631"
+    },
+    {
+      "path": "basketball_quick/qwen2.5-vl-7b__quick/attempt_002.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002.log",
+      "source_mtime_utc": "2026-09-26T02:35:44.294896+00:00",
+      "bytes": 1529,
+      "sha256": "78b03899f9c9d6c0f40f20543fdecf14585b06611173ef0e23c9122c7d981af8"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:21:04.586236+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:25:06.220485+00:00",
+      "bytes": 9737,
+      "sha256": "16613e58b442830fb6a7ad44f48a505118c7356edfba2c80a18428873fc0d49e"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:21:04.582236+00:00",
+      "bytes": 2610,
+      "sha256": "d0d16a30f55dce452baceaadc0fc9f95e6bc31200cbcf7994776443e7d649d8a"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:22:05.718807+00:00",
+      "bytes": 178,
+      "sha256": "ae12ac473ee7dbb8267f28ca6d35446134175b769b2ca9759e869c526da503f5"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:21:04.206232+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:22:05.718807+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:25:05.624480+00:00",
+      "bytes": 95906,
+      "sha256": "30fe59a2ce210ae92821f9564ac081b3dd96a544eeeb82398c5066847a11efce"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:25:06.220485+00:00",
+      "bytes": 4147,
+      "sha256": "d97c4dfcdecff228b254e5842400afb6202e4bf82f5bdfe603ea57d7f950318d"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.291544+00:00",
+      "bytes": 5766,
+      "sha256": "6ee8be50fdd42550eda654a865166a4a022697d1485b517d7252a39eca8bd002"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:21:03.178222+00:00",
+      "bytes": 3943,
+      "sha256": "5b89006211d3fdadcc6c599f513cf8e15fda4a2a4c5d1e01f942709eda5f25cc"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:25:06.220485+00:00",
+      "bytes": 815,
+      "sha256": "59d870f56362bf84be7eb5e9facb82542189dd232119498618add1856d83c54a"
+    },
+    {
+      "path": "basketball_quick/qwen3-vl-8b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:25:06.220485+00:00",
+      "bytes": 1437,
+      "sha256": "797661c68b8f7da6479dbfd66b41660e083a8781912a851f80e80f06ec2efbfb"
+    },
+    {
+      "path": "basketball_quick/state.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/state.json",
+      "source_mtime_utc": "2026-09-26T02:35:50.030973+00:00",
+      "bytes": 10337,
+      "sha256": "7b0a80479219bfc4f57ae74fe08cff145b7823acf340c6ca932d0e746c31b522"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:18:04.400542+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:20:55.382149+00:00",
+      "bytes": 1481,
+      "sha256": "76d1ebe7328467cd733608ff811ee538fdddea5f00162856b8e212eda6e49de8"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:18:04.396542+00:00",
+      "bytes": 2610,
+      "sha256": "7983b6c8f84ed704d515eafc4c8b025c26a6dc6b1d97bb267460914b093a80a6"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:18:52.244993+00:00",
+      "bytes": 179,
+      "sha256": "19879a0acd3ab28ba29f22aa3558db664fbad2f62cbcfb8dfe40a005330883d6"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:18:04.076539+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:18:52.244993+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:20:54.998146+00:00",
+      "bytes": 68357,
+      "sha256": "39457b94eb10512bdcd8c2cb201bce88c53005f59834c26730454d075a796cac"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:20:55.382149+00:00",
+      "bytes": 2583,
+      "sha256": "7e546fe53baaa8aec59e54de6dda527810c99ccbf37d62dce5a72f8ce1b19c97"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.291544+00:00",
+      "bytes": 3056,
+      "sha256": "b9ce2aa41ff26c5a38c31f3370a4377b1f61b51529a9bdcd1654857e27de8c02"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:18:03.136530+00:00",
+      "bytes": 3935,
+      "sha256": "8dc4edf6883b29ff5354e3ad5a59996ef7d2fc1b05a3c5f1224f8efb31950743"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:20:55.382149+00:00",
+      "bytes": 825,
+      "sha256": "79633c1b4404550f852adcc7de65333717663137af74046a967b07f86793972e"
+    },
+    {
+      "path": "basketball_quick/time-r1-3b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:20:55.382149+00:00",
+      "bytes": 1562,
+      "sha256": "5ea07f9b8e018858ac6aeb85ba77a1ec0964505ab5e40121ea7cd11240472cb7"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:59:09.628990+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:59:09.624990+00:00",
+      "bytes": 2610,
+      "sha256": "55c90d09e99956048362459950ec47ede371bed55cb55ebab1ff5f36ad626877"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:00:21.557737+00:00",
+      "bytes": 115,
+      "sha256": "54c56ae9488c30f5ecf76189fb97011d6d3837590ee95a8fd28775a64c773e0e"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:59:09.248987+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:00:21.557737+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:13:36.873990+00:00",
+      "bytes": 208228,
+      "sha256": "3736f113a7eb97a4e829dcc2f7daba755237a477adf29eb1de0498eab3f7a982"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:00:21.557737+00:00",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:59:08.540981+00:00",
+      "bytes": 3845,
+      "sha256": "5e28b2f1b5654f74345c8cef3ab1c2b02987b6d8598f10e81fa9206d4d039bfd"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:00:21.557737+00:00",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:00:51.446081+00:00",
+      "bytes": 1623,
+      "sha256": "76face12ace6844d3366fbc6c3d7d651e16f65d0d4d5541a755bb00ec4165466"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:15:23.855017+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:17:54.004444+00:00",
+      "bytes": 3850,
+      "sha256": "43f8381f377399eadb0e2fe3bc48e5652c10115e2071c0c81e04c16fde9abacc"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:15:23.855017+00:00",
+      "bytes": 2610,
+      "sha256": "560236f47130b15cab1d676c35499009f5f042dc26875ca23d7e5818458471c3"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/load.json",
+      "source_mtime_utc": "2026-09-26T02:15:35.819132+00:00",
+      "bytes": 179,
+      "sha256": "3f1f90e4eb7935bd8abd42db37d1fc15dc6e22c5fb2c75efbf6fea5ea27de135"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:15:23.475014+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:15:35.819132+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:17:53.544440+00:00",
+      "bytes": 60290,
+      "sha256": "dacdc30c88e7254d32c3a90045852d9d905ef22e78fe1661f2d9e42e3f2199c4"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:17:54.004444+00:00",
+      "bytes": 3382,
+      "sha256": "2c0d8d792aac18f41ab5599a1edf0c52384805a73f9bae4035bcdfc1052c0ae2"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.287544+00:00",
+      "bytes": 4063,
+      "sha256": "ad4e0a3c7cd9c7c750082b01f18b1d3b3360889aff2b156c748c096157c06be4"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/settings.json",
+      "source_mtime_utc": "2026-09-26T02:15:22.579005+00:00",
+      "bytes": 3935,
+      "sha256": "e429054ca51d74433cf3d7192cdb6e572cfa4999ff7a3e669d6fa01a53c6e395"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:17:54.004444+00:00",
+      "bytes": 834,
+      "sha256": "22531805880aa64a171ded3f8f0ed10e2d7a96a42d9588d231a1fde313ad7da0"
+    },
+    {
+      "path": "basketball_quick/time-r1-7b__quick/attempt_002.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002.log",
+      "source_mtime_utc": "2026-09-26T02:17:54.004444+00:00",
+      "bytes": 1449,
+      "sha256": "05c085d9af9d7e8153650a068d105c2523e6bec156b8cb6569cdfc5c3142480d"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:55:09.394878+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:55:09.394878+00:00",
+      "bytes": 2610,
+      "sha256": "5645d6d8e51689856a427d7ec24ad8dc71b20584338c96c3c54d2ee9abe8f308"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:56:29.815585+00:00",
+      "bytes": 115,
+      "sha256": "e339152762a51b4c03914f8db312f787587543369bed93c2f650d41e59a5fa1c"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:55:09.010875+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:56:29.815585+00:00",
+      "bytes": 255,
+      "sha256": "7d36627e1f5ad4cb809ad8fc956ae01e713d7d78ec6f82a6bac20c49dccb0138"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:59:01.232917+00:00",
+      "bytes": 92736,
+      "sha256": "a2caf20f87f1e784d09fc2616ad6d5de36594f189af4dd13317a5e305315186a"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:59:01.716921+00:00",
+      "bytes": 3220,
+      "sha256": "2ddb76d8f649259fec9bcec6878ff54c0c6e109d1183929e62230f72e2b3fb78"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.287544+00:00",
+      "bytes": 4344,
+      "sha256": "5b766efc91f2d088b511dd1d139f9d028f9e1a125e95341fc7c76134cd424dda"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:55:08.286868+00:00",
+      "bytes": 3850,
+      "sha256": "6dc06e9263b128688c297c69822f0b7e91f9eb477986578bce52b4b2691147ab"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:59:01.716921+00:00",
+      "bytes": 822,
+      "sha256": "8a6fd0dc850f59ab021662fc14669afd3cefd73b90f44e81e8ee5e40acca68d6"
+    },
+    {
+      "path": "basketball_quick/timelens-7b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:59:01.716921+00:00",
+      "bytes": 2183,
+      "sha256": "5c127bc8f8db168620e992eef4a4609d2915966551060877208df0090283f2de"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:51:09.044767+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:51:09.040767+00:00",
+      "bytes": 2610,
+      "sha256": "4b63e0809b1d068831f2aa70120f009162143c54b389e45cbac4f035440ddf3e"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:52:21.689405+00:00",
+      "bytes": 115,
+      "sha256": "1f151d057df7b05c3ce71a2c88c8b8f3454f4fad8ded936ce2205b304a1b9b28"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:51:08.660764+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:52:21.689405+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:55:02.666819+00:00",
+      "bytes": 93137,
+      "sha256": "b39d4eb196d8729a418634e92fef25139851e2c37896369bc311c2078c0c2b43"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:55:02.674819+00:00",
+      "bytes": 4087,
+      "sha256": "47d88f8854e84e10316cf1286ae23f09aa25249e9c023dec022ab1bd4669dda7"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.287544+00:00",
+      "bytes": 5195,
+      "sha256": "91bc951b38c03bacbf6c37c09ebbab6fff98ea6f9b45a39ae10ee829c095d08f"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:51:07.632755+00:00",
+      "bytes": 3850,
+      "sha256": "b0c76fe8c1f36f688d9f406deabbb69e5b14304578eb446610e3096d558689b7"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:55:02.674819+00:00",
+      "bytes": 804,
+      "sha256": "8f222f3a0799025a2c2c1667936b7544a8a945ee78b54dc80cff0e0325565340"
+    },
+    {
+      "path": "basketball_quick/timelens-8b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:55:02.674819+00:00",
+      "bytes": 1516,
+      "sha256": "5a68e8ecfc783a8147aadc30ad3bf846226b05f65cd00ab8271e783cc3a0ac3f"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:46:09.154140+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:46:09.150140+00:00",
+      "bytes": 2610,
+      "sha256": "a40e88441f1fdd569e3b08e22b59f61230c8c9ae606235a431a65a4c31412a72"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:46:18.818224+00:00",
+      "bytes": 115,
+      "sha256": "96208c9efffe2f0351d2edfdc26ba86c7d0a0da61c618a4bb63266da44e8e9c7"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:46:08.754136+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:46:18.818224+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:48:27.491351+00:00",
+      "bytes": 55449,
+      "sha256": "c24c9bed74d7ee1251d44f4e0f18062ee03cb142aac318177170d60bfc92af6b"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:48:27.859354+00:00",
+      "bytes": 3297,
+      "sha256": "ed6246a2b633c572671b7ff045e80f872a3391b9b3fe1f5ef7c522d4f4340bd1"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.283544+00:00",
+      "bytes": 3992,
+      "sha256": "121bbdcd6177391dee48f82cfaa546b14a39d3772f930ed957e7b23037828595"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:46:07.730127+00:00",
+      "bytes": 3850,
+      "sha256": "76c6746bf5e7422e0f3508a88d5131dba1898bc071ec81daa91ec030cb429755"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:48:27.859354+00:00",
+      "bytes": 823,
+      "sha256": "3dc4efe7c5e973918b6e69f78c539ec13db373cd9a0d516506b0037213d611d7"
+    },
+    {
+      "path": "basketball_quick/timelens2-4b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:48:27.859354+00:00",
+      "bytes": 896,
+      "sha256": "af1ae250d3027f8aebb364b2491b37cc6752237097545d2d98873885502a3247"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:48:38.687449+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:48:38.679449+00:00",
+      "bytes": 2610,
+      "sha256": "ac9d16504bab7aa680f8adad3cda0b20abcc3d6f91c8fd967982d37215f573f2"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T01:48:50.679554+00:00",
+      "bytes": 115,
+      "sha256": "3360d6db6dd85b8673c40733583d33c868d1859b70c9a8afbba950afe6149c2a"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:48:38.283445+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:48:50.679554+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:50:59.292682+00:00",
+      "bytes": 56434,
+      "sha256": "5a91d2200baaa42c1e605a491f2615d400974eb1def2190ef686e3609346a23c"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:50:59.148680+00:00",
+      "bytes": 2706,
+      "sha256": "9e3e2de90bb9e0906d45653563fa3f7f8564fb5f6e1830af7e1ae86f3a1ed3d1"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/results.normalized.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/results.normalized.jsonl",
+      "source_mtime_utc": "2026-09-26T02:36:33.287544+00:00",
+      "bytes": 3212,
+      "sha256": "15ffc9f0c1396d5226ed3c9c5e4d76c9a60149c2024693a79ec13a615367ffcb"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T01:48:37.611439+00:00",
+      "bytes": 3850,
+      "sha256": "0d33150bc5148d8fc6fbca5d782498a3e259d3e4a016402f8f63eee3605403bf"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:50:59.148680+00:00",
+      "bytes": 799,
+      "sha256": "892afa803a9029000652cae1c2e04cfd971d65724a1576f899417c4298c5ac5a"
+    },
+    {
+      "path": "basketball_quick/timelens2-8b__quick/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T01:50:59.148680+00:00",
+      "bytes": 1064,
+      "sha256": "c963d50cc8a7bd71896a5f13aa6a79d27b157566f2137a296d49418e47d4867d"
+    },
+    {
+      "path": "basketball_quick.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_quick.log",
+      "source_mtime_utc": "2026-09-26T02:35:50.042973+00:00",
+      "bytes": 3086,
+      "sha256": "499b868639592bec7393822020c3acb9ca7e933f708988de1078650300d0d2c0"
+    },
+    {
+      "path": "basketball_timing_check/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T01:38:08.461956+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_timing_check/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/gpu.txt",
+      "source_mtime_utc": "2026-09-26T01:38:08.457956+00:00",
+      "bytes": 2610,
+      "sha256": "38134daa09b6da408e759f721eafd60b5e421857572c0920ad30a569fc9eb53a"
+    },
+    {
+      "path": "basketball_timing_check/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/load.json",
+      "source_mtime_utc": "2026-09-26T01:38:19.002047+00:00",
+      "bytes": 115,
+      "sha256": "0eb9f595108dcd9fb3c21359b3974113eec3059071efac4eaa82b27cb227b138"
+    },
+    {
+      "path": "basketball_timing_check/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T01:38:08.093953+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_timing_check/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T01:38:19.006047+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_timing_check/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T01:39:02.870427+00:00",
+      "bytes": 21699,
+      "sha256": "229008c8d434193b1754a85ff011eb191fb51b246beaccedf6dfab87b3626556"
+    },
+    {
+      "path": "basketball_timing_check/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/results.jsonl",
+      "source_mtime_utc": "2026-09-26T01:39:03.098429+00:00",
+      "bytes": 834,
+      "sha256": "1b3a96b6f3258c18b0b21c867f132bb41fff7f17e704b852f5c30e8602ba2e6a"
+    },
+    {
+      "path": "basketball_timing_check/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/settings.json",
+      "source_mtime_utc": "2026-09-26T01:38:07.065944+00:00",
+      "bytes": 3778,
+      "sha256": "302cb7b854c370be1c9fdbb42b0c3fa48b1e9708caf52d6f579bc646449f0dea"
+    },
+    {
+      "path": "basketball_timing_check/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check/summary.csv",
+      "source_mtime_utc": "2026-09-26T01:39:03.098429+00:00",
+      "bytes": 363,
+      "sha256": "33812872d8f32c28cc409b688bfe6c918e7e8a3b214781f000d230824e58aecf"
+    },
+    {
+      "path": "basketball_timing_check.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_timing_check.log",
+      "source_mtime_utc": "2026-09-26T01:39:03.098429+00:00",
+      "bytes": 724,
+      "sha256": "ea9806c5cad59040c10a1d0caa92f4e0092a0d3b3610bb17d268c5ed651587df"
+    },
+    {
+      "path": "basketball_v2/all_responses.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/all_responses.jsonl",
+      "source_mtime_utc": "2026-09-26T03:25:38.732856+00:00",
+      "bytes": 77648,
+      "sha256": "2dd06da49712c250506631913018b1f6b11da1b62ad994bbdfabe78026e6e56a"
+    },
+    {
+      "path": "basketball_v2/all_trials.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/all_trials.csv",
+      "source_mtime_utc": "2026-09-26T03:25:38.724855+00:00",
+      "bytes": 24996,
+      "sha256": "590b510a4ae6453a401cd9821db30cc7b8bed0f36d3a937aee7b8d9911fbfca5"
+    },
+    {
+      "path": "basketball_v2/comparison.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/comparison.md",
+      "source_mtime_utc": "2026-09-26T03:25:38.724855+00:00",
+      "bytes": 14514,
+      "sha256": "ece574f420e622940aa93c3dc52dc2044708161a843478c8322deba03b165dc9"
+    },
+    {
+      "path": "basketball_v2/plan.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/plan.json",
+      "source_mtime_utc": "2026-09-26T02:43:13.556357+00:00",
+      "bytes": 7318,
+      "sha256": "00a1dd230d170166ddb728a9fe696ae181dec801d99a62d6df76fd659e884881"
+    },
+    {
+      "path": "basketball_v2/progress.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/progress.md",
+      "source_mtime_utc": "2026-09-26T03:25:38.724855+00:00",
+      "bytes": 1328,
+      "sha256": "1fe08a4281e23cd7284482a7d65f49b068ace38eddfe7bfad036b2d488a0745f"
+    },
+    {
+      "path": "basketball_v2/prompt_comparison.md",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/prompt_comparison.md",
+      "source_mtime_utc": "2026-09-26T03:25:38.732856+00:00",
+      "bytes": 656,
+      "sha256": "1b430131856083e63cfed3b3f765a111afc95dad1235f589ad1ae8c84efd20b3"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:11:29.757253+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:16:36.183918+00:00",
+      "bytes": 36621,
+      "sha256": "998ca224b544ea7208909ac0ce9a0f751d8f05acd01e38246bf015271f88ba4f"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:11:29.757253+00:00",
+      "bytes": 2610,
+      "sha256": "82dc0503f3aa51c57ad7c8304021a35f8844531c97df16fc0af31168c32ef7e6"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:11:40.349343+00:00",
+      "bytes": 178,
+      "sha256": "dc3920fc05e97a2b7126ce40db7fe314998b1195dd3d55623709c29d3db1ea1e"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:11:29.361250+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:11:40.349343+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:16:36.323919+00:00",
+      "bytes": 121914,
+      "sha256": "62adaf3c4dc474103c89c168267bfd959402b487808ed1df0bbdbc3764200fed"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:16:36.187917+00:00",
+      "bytes": 17533,
+      "sha256": "2be0b098df0a8952dc5314179223b444cce91b2a6d76834ee983ef1fa1dcceb2"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:11:28.425242+00:00",
+      "bytes": 3970,
+      "sha256": "f8445d682aad0c40994d9b83cee1c981d472ca491c399597c9339b4f53f2c19a"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:16:36.187917+00:00",
+      "bytes": 1149,
+      "sha256": "08a5f4a95e3ab330026eae473a4e2e9a31e8ff5b0fb9c2fed04e986b266c1e2c"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:16:36.187917+00:00",
+      "bytes": 1583,
+      "sha256": "31b8d3ad0a3ce848ee48dc7dea658ff776578c6e2c225785ffaa30bdc2b10ca4"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:24:52.260426+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:25:35.572826+00:00",
+      "bytes": 494,
+      "sha256": "6dfc082e068dd655791f160e2d82692bac029ac6b9c73640dfb22945827f2933"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:24:52.252426+00:00",
+      "bytes": 2610,
+      "sha256": "d7d2ad576f3d4e008f9d3a5123870843e21b06296677eee7f574a2ed91ba7bc1"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:25:03.088526+00:00",
+      "bytes": 178,
+      "sha256": "77d833da5368cb4315eb0a602ba29c142499ea31885243c12554bd860e620aba"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:24:51.896423+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:25:03.088526+00:00",
+      "bytes": 309,
+      "sha256": "53b97208f74c82d2715cfeabff5f900aba6320be7648bf70b48b725f46fa1fbb"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:25:35.220823+00:00",
+      "bytes": 17400,
+      "sha256": "bfb5b030edca52ca85216387ecc3799badadc05edeaee0e14f1dcb01308aaee2"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:25:35.572826+00:00",
+      "bytes": 792,
+      "sha256": "fc49cc65e8e17cb45607e0b3d131ec06e71da54d40f3088fc2b65e74b2d8d7dd"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:24:51.088415+00:00",
+      "bytes": 3916,
+      "sha256": "74798b42fa7dd3d6800909a5cd660f96e15ace3da0e970a48d43b77d64956571"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:25:35.572826+00:00",
+      "bytes": 439,
+      "sha256": "1440b301b5d61dfebf7113dd2e28ad83457d54b9b8935a0a4401387b9a7ce818"
+    },
+    {
+      "path": "basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen2.5-vl-7b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:25:35.572826+00:00",
+      "bytes": 1392,
+      "sha256": "c00ef8f3f769735968bc95445cfb5cc35642b6ae3d277dd8f5063a22a44a35f0"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:04:28.925459+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:11:16.097138+00:00",
+      "bytes": 33933,
+      "sha256": "de663822e17625a53573edd5b2eb68456aa922fb7aecba50271e78aabd21312b"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:04:28.921459+00:00",
+      "bytes": 2610,
+      "sha256": "63f80dadbfb675fc155d23e30f8e3eba57fdc4c3c5541c8575014099a58861cf"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:05:14.025903+00:00",
+      "bytes": 178,
+      "sha256": "4eabcce8e782904417763e329b11ea059c40869fadf734c4afdf6067a8eaebed"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:04:28.525455+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:05:14.025903+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:11:15.829135+00:00",
+      "bytes": 161721,
+      "sha256": "6239c59cf43ab3345b6c9d12e6fd2d5c699c6f8e3b8d5380cfd6709247fce511"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:11:16.101138+00:00",
+      "bytes": 14001,
+      "sha256": "e2536de10b634c4c8f281738ec8faee942efb58c883d43b109ca31aa9f25db89"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:04:27.601446+00:00",
+      "bytes": 3964,
+      "sha256": "3360ba66e309a49a6dd8c60cfc124612cc3b6947f6d96b1827d959ed8877b51e"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:11:16.101138+00:00",
+      "bytes": 1112,
+      "sha256": "56609e0e6f73ec88bd380319d02e81682d07756f85efb43df6b48ec4dc7caf1c"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:11:16.101138+00:00",
+      "bytes": 1128,
+      "sha256": "2a6aa218c6cf53f6f3f930550c2fe53e8d642f3a50c31d67e26afff0d8bda0f7"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:23:22.159596+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:24:41.572328+00:00",
+      "bytes": 494,
+      "sha256": "bb2b85dd5544bd7f3bf366039f4661e35a46518d6f4fc3062e876d2f31028744"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:23:22.155596+00:00",
+      "bytes": 2610,
+      "sha256": "35971216d8c525f60d4986b0815c657a51f3827cb75c21c76c1aa479ed50f894"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:24:06.768007+00:00",
+      "bytes": 177,
+      "sha256": "dc7bcb36daf271337e1cfb951e0c1fcdd10b1bb30b160feb63e97cc37ce822a8"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:23:21.755593+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:24:06.768007+00:00",
+      "bytes": 183,
+      "sha256": "d63a8f0bcd8cb0d2af65d7fd9de2400b6f0786fc8b86959ca9507030d8195038"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:24:41.228324+00:00",
+      "bytes": 31678,
+      "sha256": "498b56312be2eac4d8db5a4c937bf32aba9d352b8d51090b310c2061b3411d64"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:24:41.576328+00:00",
+      "bytes": 780,
+      "sha256": "7980714bd3744cba316db92957305ddeee8a833b1f984b55d0242b99aeb2c47e"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:23:20.731583+00:00",
+      "bytes": 3910,
+      "sha256": "4793a78c32566e038974f85b176de7933e8b9e84e372e7fd35847e2186b12e1a"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:24:41.576328+00:00",
+      "bytes": 438,
+      "sha256": "046bf68ab128b7adbc337a63fda098ed0b022413430dfe006907ff77cb241e5b"
+    },
+    {
+      "path": "basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/qwen3-vl-8b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:24:41.576328+00:00",
+      "bytes": 934,
+      "sha256": "1f5a6a81c6036a31b964d26be761c03f30edacf1d0330c590d5e3a141e901b6e"
+    },
+    {
+      "path": "basketball_v2/state.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/state.json",
+      "source_mtime_utc": "2026-09-26T03:25:38.708855+00:00",
+      "bytes": 20941,
+      "sha256": "2baef7702601b3218633080e29b21317c8e4e3878db1946d4d174cf5fc9066e8"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:01:18.503581+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:04:22.449395+00:00",
+      "bytes": 1846,
+      "sha256": "b4579a5729a11e4e1c6a395900521a9790c58b741ede30fa000000488691d1e0"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:01:18.499581+00:00",
+      "bytes": 2610,
+      "sha256": "a7e1bb5ccfb7fcb000eb9d72e6bcb217acd619aff087a1ddb584a5b8aedcdd01"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:01:45.415847+00:00",
+      "bytes": 180,
+      "sha256": "d8969f96a17594759f8ede65c1bcaea1fe578f0ca2685dc92e98b42e03d503fb"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:01:18.119577+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:01:45.415847+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:04:22.833399+00:00",
+      "bytes": 73455,
+      "sha256": "24ae63fbdc7f4af667f5f8a04511e2b95dde48cf32ae45cbf3c8dd54284e0ca4"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:04:22.449395+00:00",
+      "bytes": 3674,
+      "sha256": "0e94155a2e56bbe5731450dba3c4608fea4416cdb65aa9b122992d744ddc3a5d"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:01:17.427570+00:00",
+      "bytes": 3956,
+      "sha256": "dbed6a3a5800d1a3dde1eede60247b0fab51846bffc52b9a661ba7dad1b1883b"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:04:22.449395+00:00",
+      "bytes": 1114,
+      "sha256": "6780e97cd142105490fc292720b1e1b7c8489e157e5479a65051d76af4027c77"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:04:22.449395+00:00",
+      "bytes": 1317,
+      "sha256": "6d487b87e50aabec0a3b8888ecac15184f87cac23d196ae4cda631251c534a6a"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:22:11.906952+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:23:11.415498+00:00",
+      "bytes": 1115,
+      "sha256": "3f9d2726d4f111d4b4babbda26e6d5942adfbfd78d2ddd4222551c3f5983649c"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:22:11.906952+00:00",
+      "bytes": 2610,
+      "sha256": "738692958d31d8dfad20896bddb9469cd2ef3db34f1d3b0585123d62f1ee2aeb"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:22:34.171156+00:00",
+      "bytes": 180,
+      "sha256": "36a5b261710ddc7805d7f58e40147c2acb5efb42673c8fee8d99e3c18ba62c30"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:22:11.522949+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:22:34.171156+00:00",
+      "bytes": 454,
+      "sha256": "0699505e39896fc210800bbf53d5e209406cb7890653cfd02d08637411338e8d"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:23:11.091495+00:00",
+      "bytes": 23766,
+      "sha256": "565ba4edda9246241c530a6f874ea640c87335c10497aaee1fee030e9c3e3fe5"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:23:11.419498+00:00",
+      "bytes": 1040,
+      "sha256": "15c4cc144fd8d49710e4ae01e44e893d4a62aabd4e745cc890bf8f7e52a54e1b"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:22:10.842942+00:00",
+      "bytes": 3902,
+      "sha256": "71a6dae157d071e3d54dcfc619442e3d75db26b340e6c58ccbc84fa88b475f20"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:23:11.419498+00:00",
+      "bytes": 439,
+      "sha256": "3ac50d5804fb982a1723c38c8338d5c76dfbe5c7b4eefec69bad0f2ca43d5351"
+    },
+    {
+      "path": "basketball_v2/time-r1-3b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:23:11.419498+00:00",
+      "bytes": 1129,
+      "sha256": "9ba73d797f786a5f78f9f5d6ec17aec00679b1e418157c8ed3d9d80ad0d1b3ef"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:57:58.137590+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:01:12.559522+00:00",
+      "bytes": 6096,
+      "sha256": "394740e6f717db45a3a81de6988e77851c45e29322b0edf357cb46def220daec"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:57:58.133590+00:00",
+      "bytes": 2610,
+      "sha256": "a5bf6a112a25c4a5cf532c207de1cc67e907d75a018d166bf7e9504d594befbc"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:58:09.065699+00:00",
+      "bytes": 179,
+      "sha256": "7dce955707a18222330eb3bc1bdc506d25d652bfc00870d572e62b5edd423e10"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:57:57.909587+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:58:09.065699+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:01:11.859515+00:00",
+      "bytes": 77146,
+      "sha256": "9f16e14df29b63b2891e3a6049c3e503e600dd82568f4f9a94477e88002b2b24"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:01:12.559522+00:00",
+      "bytes": 5471,
+      "sha256": "faa376cb23837ea1785176a7db802b8131699348ff58a081ec1a9880a5da0073"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:57:57.021579+00:00",
+      "bytes": 3956,
+      "sha256": "cb1245607c99d000ce8040a84f400f2a62c22d14d48dfa1ee7719d1680380efd"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:01:12.559522+00:00",
+      "bytes": 1136,
+      "sha256": "19c16bf59c978f69cae8a80e1c9c4c87cf55a7176f578331fcd6b311c2d3889d"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:01:12.559522+00:00",
+      "bytes": 1505,
+      "sha256": "8bc1f36c6eb33d08ce3d23f8070adfe865e22e99f910cd0bda276399ab087121"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:21:21.502491+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:22:07.006907+00:00",
+      "bytes": 864,
+      "sha256": "f5281c8e33a583c5a3d16937a5ab54a3327af72184c7bf3bc9282276a371a140"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:21:21.498491+00:00",
+      "bytes": 2610,
+      "sha256": "edaa956a35c6749567be98fb4b7cc8581ee01d306b3e0e7402db060f0656d8d1"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:21:31.986587+00:00",
+      "bytes": 179,
+      "sha256": "6e9548ca0935b9796940f68986a48bba0f10b0b1ff8a22bab70915c4d8a32ad5"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:21:21.122488+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:21:31.986587+00:00",
+      "bytes": 454,
+      "sha256": "0699505e39896fc210800bbf53d5e209406cb7890653cfd02d08637411338e8d"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:22:06.918906+00:00",
+      "bytes": 18368,
+      "sha256": "bd5a1575318e61aba9151d6ecb890e57cbb44e7132b6ac4e52ec0d3e0c2351b1"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:22:07.006907+00:00",
+      "bytes": 1021,
+      "sha256": "fe03909754915200800313e6fd5d71d4e9dbf44943e546db2cb7fa64b506b043"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:21:20.090478+00:00",
+      "bytes": 3902,
+      "sha256": "7070f06d4509cacdc87b300f40e698b4ff9c3d036e8126fb2041f3988fb253dd"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:22:07.006907+00:00",
+      "bytes": 440,
+      "sha256": "6529b06e1cd2506c223e14c4a7a1dc6b81fd9a58320019a1954808e939950f9b"
+    },
+    {
+      "path": "basketball_v2/time-r1-7b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-7b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:22:07.006907+00:00",
+      "bytes": 1315,
+      "sha256": "5f4043c0aca04f14840e03814eb93fdcf69ad76563fc8f94c6ffecfe0769de72"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:53:58.591180+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:57:52.493533+00:00",
+      "bytes": 6229,
+      "sha256": "e956d666617b94a4e993c6202bc50621481224ed4b48b51388fd760c7107bf1a"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:53:58.587180+00:00",
+      "bytes": 2610,
+      "sha256": "06bec041920dede13ddc9d8cbf1006709efbb65ad3e6956c65771c588cf65737"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:54:42.191622+00:00",
+      "bytes": 178,
+      "sha256": "5eeaf3917501bbb52f9c487597beb47b0188f94b567423c7d7a5b98c6dee7eca"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:53:58.367178+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:54:42.191622+00:00",
+      "bytes": 255,
+      "sha256": "7d36627e1f5ad4cb809ad8fc956ae01e713d7d78ec6f82a6bac20c49dccb0138"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:57:52.657535+00:00",
+      "bytes": 92868,
+      "sha256": "5c1da7827394e5d1206f6ee7403737dfa99226315211dd2bbcfd0bab2cdd9785"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:57:52.493533+00:00",
+      "bytes": 4943,
+      "sha256": "ad0f55f8f5f201020b110abb034a53fe2c0058ace43a6cc44babeeacda8f42ed"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:53:57.315167+00:00",
+      "bytes": 3961,
+      "sha256": "b25c42c37e0205421319ddd43bd62727db41a05dbfbf4c0984dfaf6658d0fb13"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:57:52.493533+00:00",
+      "bytes": 1097,
+      "sha256": "4803ca946525a811a36396a4468be1dd3c83291d4c35a930e2630c75937e09dd"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:57:52.493533+00:00",
+      "bytes": 1511,
+      "sha256": "f2cecec9cb2ff614947d98178b0b3012e5930229df0e9c3ad5705be0041667a5"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:19:51.369671+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:21:09.530382+00:00",
+      "bytes": 495,
+      "sha256": "0122406e92d69a7965d85d4b32eb47fa48faed3397bf16b001cc824f2decc02a"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:19:51.365671+00:00",
+      "bytes": 2610,
+      "sha256": "b9463eef70a83380666830ade05b62379d7d115844d8f9df2466e293dd538507"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:20:32.982049+00:00",
+      "bytes": 178,
+      "sha256": "bc47738644a1ef43ad5cd8eafde040e42854708a15e4b638b8d7f00e2e6f82e0"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:19:51.009668+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:20:32.982049+00:00",
+      "bytes": 309,
+      "sha256": "53b97208f74c82d2715cfeabff5f900aba6320be7648bf70b48b725f46fa1fbb"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:21:08.918376+00:00",
+      "bytes": 31175,
+      "sha256": "f26e5b317d17203c5f2df30b4083a062b6c9aa999d2b90892ad1ac37dff588ac"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:21:09.530382+00:00",
+      "bytes": 772,
+      "sha256": "51fb3453b38505c5b0de64c6a7dfc8b50a5c22e00952a581570123c3bcf72470"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:19:50.333662+00:00",
+      "bytes": 3907,
+      "sha256": "e7c1a2e8dca03ca692695aa3d0e31939cdd49be08da0f1fb173deb2692ccce41"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:21:09.530382+00:00",
+      "bytes": 439,
+      "sha256": "5e50bb08d83e420bf3d49afa46e25769f7de83b35ac51d3fbe4f2797c1a078c5"
+    },
+    {
+      "path": "basketball_v2/timelens-7b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-7b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:21:09.530382+00:00",
+      "bytes": 1321,
+      "sha256": "9bd3e154a001a339aac8b98400d04e1e2890fb13b38b9ff01a6b36da2195ba91"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:49:27.476393+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:53:48.619079+00:00",
+      "bytes": 8837,
+      "sha256": "815c2563bd87f532586602ced6d8e0050620f9b8117e5fcfdc3d0fcba379a9ce"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:49:27.472393+00:00",
+      "bytes": 2610,
+      "sha256": "53f3df66cd606ae765957f222e52974471839379f09732c5e687d2ba8faaa467"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:50:21.436954+00:00",
+      "bytes": 179,
+      "sha256": "ffbac7fda5c43348f73844def7dfb8cebc22e8efecc877614f201c12c5b2f612"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:49:27.072389+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:50:21.436954+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:53:48.579079+00:00",
+      "bytes": 104053,
+      "sha256": "0b5d2d2f2d78298c6c56c6db644e46cf581b00e30b8b445917bb98e1c8235c34"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:53:48.619079+00:00",
+      "bytes": 5858,
+      "sha256": "745cfb1e8255cc4e002bc03fd998511020cd1ec2675221276764ec19326824dc"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:49:26.204380+00:00",
+      "bytes": 3961,
+      "sha256": "76f8b69dbe0f06c9635dcf0baa8fda59607ebffb148224e1b29e22b5b89e5436"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:53:48.619079+00:00",
+      "bytes": 1074,
+      "sha256": "995596afb6ce2a462ba6a4ec96a7d8816c1b7dc7bccd24563f358398279cc3b6"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:53:48.619079+00:00",
+      "bytes": 1122,
+      "sha256": "d91e8f9ce38abd9ea60eb8256f01f4c9330dc122c1c95ac7ef6a0cb1f2e9af7f"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:18:20.856854+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:19:43.153597+00:00",
+      "bytes": 496,
+      "sha256": "0768674321ed601a197ae488799907701a2be52fc4ef984eb276256ffb358cb8"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:18:20.852854+00:00",
+      "bytes": 2610,
+      "sha256": "db34e2c34b6830ac4dc5440055a8a34e1d8389b98d866a194a0c9bfefc680f44"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:19:07.261272+00:00",
+      "bytes": 178,
+      "sha256": "93cc7d0c1c988d6345f1e0c6e208f1406c42591d17abba550c95e81817d234d9"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:18:20.488851+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:19:07.261272+00:00",
+      "bytes": 183,
+      "sha256": "d63a8f0bcd8cb0d2af65d7fd9de2400b6f0786fc8b86959ca9507030d8195038"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:19:42.905595+00:00",
+      "bytes": 32663,
+      "sha256": "025b00bafca05e3abbdc5818ea56e937df1dca118fa7dd7b478085912569df25"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:19:43.157597+00:00",
+      "bytes": 777,
+      "sha256": "28e4edb19af71d5454e4572edcac562c0c654cc7af50cf2a41b8b628ecb747ef"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:18:19.800844+00:00",
+      "bytes": 3907,
+      "sha256": "e19e83471e9cb2399e3d488f9e2e41b7969017028897422b454b54d694948642"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:19:43.157597+00:00",
+      "bytes": 435,
+      "sha256": "898469c1c6f53578df55c02b6a78e1409149b2eef68bc9deea7a5b732ec76225"
+    },
+    {
+      "path": "basketball_v2/timelens-8b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens-8b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:19:43.157597+00:00",
+      "bytes": 931,
+      "sha256": "ba3254d86b401c53cde7e407ce4db0510c69917d6e0c3b6f8463c4cf6feb2cae"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:43:17.152397+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:46:08.270279+00:00",
+      "bytes": 3717,
+      "sha256": "7fcb4513cd878734d8efe5fe3e8ed7335f7c2d96434018aa18fa9836082bc708"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:43:17.148397+00:00",
+      "bytes": 2610,
+      "sha256": "f6f49c9e86aeee4ebe8980bfe3123cd9434e6c1c8461e1e41639a4a2db107576"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:43:26.684504+00:00",
+      "bytes": 177,
+      "sha256": "f452109529fc2c627c283d9cfb25595507f62becb20cdd2a038d871a1254e22b"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:43:16.828393+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:43:26.684504+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:46:07.646272+00:00",
+      "bytes": 68479,
+      "sha256": "a7df3d3b55354193f5b418c8da8567d24df6a7f76f21c165c2ba65f867c1cefb"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:46:08.270279+00:00",
+      "bytes": 4538,
+      "sha256": "78a147a6f008dc1401d695eeaae751b67f0e2de39301532b4cebc588fba21b4f"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:43:15.932384+00:00",
+      "bytes": 3961,
+      "sha256": "e977796fb71e3ee53c9d70e972b6b94924e6b536d9e52d7a5b392ccf402bbe97"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:46:08.270279+00:00",
+      "bytes": 1105,
+      "sha256": "79d8f63b78292d4f12ab370028c7aa7d82e5f0428ee0fe28ea6f5b6a90ed4622"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:46:08.270279+00:00",
+      "bytes": 950,
+      "sha256": "9cb69dbe7f59bffc2e200a7639ff4395b248d6d1b4ead9c0478b0b15e5ea668b"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:16:40.615957+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:17:24.572349+00:00",
+      "bytes": 741,
+      "sha256": "0e33347ba964d0464b8e8bb5eb2a18055bcadf5ed75b2eaa0f717f8f5df3bb13"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:16:40.611957+00:00",
+      "bytes": 2610,
+      "sha256": "74dca5e798dfb30faa173236a5e23b4d046bf713c42d214ab537d14b24744280"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:16:50.236042+00:00",
+      "bytes": 178,
+      "sha256": "cb462c76532d08517c524a0ebbdec70562d6c875382c0f1788b2c55a1c074b8d"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:16:40.219953+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:16:50.236042+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:17:24.712350+00:00",
+      "bytes": 17868,
+      "sha256": "f96332007ce34b61edf7d840adac583b3c7643b4dfa8c8eefe2fa769cdee9208"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:17:24.576349+00:00",
+      "bytes": 916,
+      "sha256": "2d60a1e7e28cc81b180af88211f405524a887f179d89010604bcbf9dfa2170ee"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:16:39.543947+00:00",
+      "bytes": 3907,
+      "sha256": "f31f5961febe188f3d7d450b42f539ad2ad351e60322515c35a78ccee0d15d5b"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:17:24.576349+00:00",
+      "bytes": 433,
+      "sha256": "920a7230d6ed7ea15e066dbef3d2024d36dcc37a6ffaa33b9bc8f0ee868955e9"
+    },
+    {
+      "path": "basketball_v2/timelens2-4b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-4b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:17:24.576349+00:00",
+      "bytes": 761,
+      "sha256": "33057aa0de6137489a0ffc2bb6d63691f2cda3c12a6db105583f950e42325ddc"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T02:46:17.038374+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T02:49:14.784260+00:00",
+      "bytes": 3349,
+      "sha256": "74df603b6669e44c5ca5264f3706430c9575aeeb8a9bc29d2106f4894d97eb58"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T02:46:17.030374+00:00",
+      "bytes": 2610,
+      "sha256": "975802fdc1e83d57254326dc781d9430c5408bf38104432ab19df5a9d0023762"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T02:46:27.874490+00:00",
+      "bytes": 178,
+      "sha256": "efb1e63ffc7bb4990e1bba700ac13672e53e6620acd821fdf60b1af0c63bb6fd"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T02:46:16.694370+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T02:46:27.874490+00:00",
+      "bytes": 179,
+      "sha256": "7230603774e055fc2f3e8cbeb9f63311dd769904ec447295013018de45b08ce4"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T02:49:15.168264+00:00",
+      "bytes": 71378,
+      "sha256": "78c6381557b564d95ed41c96672aaea6ab5ab2381e64fda9e9725d14ab625c78"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T02:49:14.784260+00:00",
+      "bytes": 4407,
+      "sha256": "11c75ee6d6abbb5478c7154e86a554b232beb58c64e31e3765d443b3c8f619b0"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T02:46:15.998363+00:00",
+      "bytes": 3961,
+      "sha256": "926f50d40607f67c03b6fa49c13892042cd00462d8521e006d5bdf5f4bbd33f1"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T02:49:14.784260+00:00",
+      "bytes": 1075,
+      "sha256": "4c46adb34baa939f8a6ff4e1f684b57dc4be2787b7c1527aca70fa8e653c6600"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__all_json_5q/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__all_json_5q/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T02:49:14.784260+00:00",
+      "bytes": 1119,
+      "sha256": "20ab31fbe5d653c501867ad74c121cf6a6fae8f8ecad47049af5b2e69768ba17"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/code-commit.txt",
+      "source_mtime_utc": "2026-09-26T03:17:31.492411+00:00",
+      "bytes": 41,
+      "sha256": "90b88d0ba06412a344a00d094bf08d3e5e09c34ecdd4d2e0ea4499b2fd8b443c"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/generation_progress.jsonl",
+      "source_mtime_utc": "2026-09-26T03:18:15.144803+00:00",
+      "bytes": 370,
+      "sha256": "936854224b5a1264fdf7f983e410f0afdc65734df17e29d3357c9d508c359370"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/gpu.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/gpu.txt",
+      "source_mtime_utc": "2026-09-26T03:17:31.488411+00:00",
+      "bytes": 2610,
+      "sha256": "8170c2c0317565a05498ff18ba906832e57b62088f566b740d502810fd97b95a"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/load.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/load.json",
+      "source_mtime_utc": "2026-09-26T03:17:42.212507+00:00",
+      "bytes": 178,
+      "sha256": "e4651797a35c4a53ea5122c572594b39fcbeb7bfd6435fc95181d8328d01cbbb"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/pip-freeze.txt",
+      "source_mtime_utc": "2026-09-26T03:17:31.100407+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/prompt-template.txt",
+      "source_mtime_utc": "2026-09-26T03:17:42.212507+00:00",
+      "bytes": 145,
+      "sha256": "fa8ee4205bfe93cb6f78fb25c257f3d626877317eaffe34908e5d1d0b7571210"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/resources.jsonl",
+      "source_mtime_utc": "2026-09-26T03:18:15.472806+00:00",
+      "bytes": 17882,
+      "sha256": "5e8f5ebda1756f46a88f38aae718c06fc36f5a2b68351dbea459601206e97500"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/results.jsonl",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/results.jsonl",
+      "source_mtime_utc": "2026-09-26T03:18:15.144803+00:00",
+      "bytes": 749,
+      "sha256": "f79ed9ac2a48159bf7b2dcfb026a9c7e9c759908d77a90c734634c2a0c398fb5"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/settings.json",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/settings.json",
+      "source_mtime_utc": "2026-09-26T03:17:30.072398+00:00",
+      "bytes": 3907,
+      "sha256": "50286e01433a2c899e210be277346d8c215e1af4883a3ef71a3cf83059d5036d"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001/summary.csv",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001/summary.csv",
+      "source_mtime_utc": "2026-09-26T03:18:15.144803+00:00",
+      "bytes": 429,
+      "sha256": "4b01a124abb823e1744e0d3b26427a3fbcf82b8f8b7726198af94a720d166d39"
+    },
+    {
+      "path": "basketball_v2/timelens2-8b__default_shot_control/attempt_001.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2/timelens2-8b__default_shot_control/attempt_001.log",
+      "source_mtime_utc": "2026-09-26T03:18:15.144803+00:00",
+      "bytes": 930,
+      "sha256": "165d35ad8a5da51018b66fc32b02d1039e1c5fa51b899e47dcc9163d22a2d7f9"
+    },
+    {
+      "path": "basketball_v2.log",
+      "source": "/home/elicer/aim-workspace/results_grounding/basketball_v2.log",
+      "source_mtime_utc": "2026-09-26T03:25:38.732856+00:00",
+      "bytes": 3518,
+      "sha256": "08375c7b9c52ff4fcfb46106c9870f404c0f77c4fc5a7faedca9bd1ba086d570"
+    },
+    {
+      "path": "environment/grounding_env-freeze.txt",
+      "source": "/home/elicer/aim-workspace/grounding_env-freeze.txt",
+      "source_mtime_utc": "2026-09-26T00:27:27.600363+00:00",
+      "bytes": 1719,
+      "sha256": "20826d85e81e9733be2a000a34db076a7b3a3b1dbb367e7952d4f964dd5b8dc1"
+    },
+    {
+      "path": "environment/grounding_env-torch.txt",
+      "source": "/home/elicer/aim-workspace/grounding_env-torch.txt",
+      "source_mtime_utc": "2026-09-26T00:27:21.524307+00:00",
+      "bytes": 33,
+      "sha256": "bc64b26eabedbf6fd355a774220ee3b74f7ccd25b770e15cb8c43830a17f11c7"
+    },
+    {
+      "path": "environment/setup-revisions.json",
+      "source": "/home/elicer/aim-workspace/setup-revisions.json",
+      "source_mtime_utc": "2026-09-26T00:33:12.443500+00:00",
+      "bytes": 455,
+      "sha256": "4e99cc3d07d0b3ce6cf181cb467aecd664cf1c4e2549ad8bbb9159b98262d285"
+    }
+  ]
+}

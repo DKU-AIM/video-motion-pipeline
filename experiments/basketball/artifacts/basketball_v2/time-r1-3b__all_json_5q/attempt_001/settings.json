@@ -1,0 +1,102 @@
+{
+  "video": "/home/elicer/aim-workspace/inputs/grounding/2026_AsianGames_men's_basketball_final.mp4",
+  "queries": "/home/elicer/video-motion-pipeline/experiments/basketball/queries.json",
+  "ids": [
+    "shot",
+    "dark_shot",
+    "bench",
+    "closeup",
+    "football"
+  ],
+  "variants": "first",
+  "model": "time-r1-3b",
+  "prompt": "all-json",
+  "fps": 1.0,
+  "max_frames": 256,
+  "total_tokens": 16384,
+  "max_new_tokens": 2048,
+  "repeat": 1,
+  "out": "/home/elicer/aim-workspace/results_grounding/basketball_v2/time-r1-3b__all_json_5q/attempt_001",
+  "video_sha256": "98ac45493e0d3a17bf307c62c4482168e5d92ce32edec4378e3634da7cd10a50",
+  "video_duration_s": 222.55566666666667,
+  "queries_snapshot": [
+    {
+      "id": "shot",
+      "category": "frequent_action",
+      "queries": [
+        "A player attempts a shot at the basket.",
+        "A basketball player shoots the ball toward the hoop."
+      ],
+      "definition": "Start at the visible shooting motion; end at visible outcome or shot cut. Do not label dribbling or passing. Count a replay as a separate visible occurrence."
+    },
+    {
+      "id": "dark_shot",
+      "category": "attribute",
+      "queries": [
+        "A player wearing a dark jersey attempts a shot at the basket.",
+        "A dark-uniformed player shoots the basketball toward the hoop."
+      ],
+      "definition": "Same shot boundary rule, but the shooter must visibly wear a dark jersey. No team identity inferred from filename."
+    },
+    {
+      "id": "free_throw",
+      "category": "specific_action",
+      "queries": [
+        "A player takes a free throw.",
+        "A player shoots a foul shot from the free-throw line."
+      ],
+      "definition": "Visible free-throw shooting motion through outcome/cut. Presence and count require full review."
+    },
+    {
+      "id": "bench",
+      "category": "reaction",
+      "queries": [
+        "Players on the bench celebrate.",
+        "Seated or standing substitutes cheer from the sidelines."
+      ],
+      "definition": "Visible celebratory gesture by bench players, not any bench shot. Start/end with the gesture or shot cut."
+    },
+    {
+      "id": "closeup",
+      "category": "shot_type",
+      "queries": [
+        "The camera shows a close-up of a player's face.",
+        "A basketball player's face is shown in close-up."
+      ],
+      "definition": "A player head/shoulders is a prominent subject; not wide court footage. Split at cuts to unrelated scenes."
+    },
+    {
+      "id": "dunk",
+      "category": "fine_grained",
+      "queries": [
+        "A player dunks the basketball through the hoop.",
+        "A player scores by pushing the ball down through the rim."
+      ],
+      "definition": "Require visible dunk evidence, not a layup or ordinary jump shot. Presence/count not assumed."
+    },
+    {
+      "id": "football",
+      "category": "negative_candidate",
+      "queries": [
+        "A player kicks a soccer ball into a goal.",
+        "Someone scores a soccer goal by kicking the ball."
+      ],
+      "definition": "Candidate absent event. Mark as negative only after reviewing the entire video."
+    },
+    {
+      "id": "swimming",
+      "category": "negative_candidate",
+      "queries": [
+        "A person swims in a swimming pool.",
+        "Someone is swimming through the water in a pool."
+      ],
+      "definition": "Candidate absent event. Mark as negative only after reviewing the entire video."
+    }
+  ],
+  "model_repo": "Boshenxx/Time-R1-3B",
+  "sampling_note": "Requested fps/frame/token budgets; actual visual grid recorded per trial. total_tokens is a visual pixel budget, not a strict input-token cap.",
+  "timing_note": "First query is cold; model download/load measured separately. No automatic OOM budget changes.",
+  "effective_use_cache": true,
+  "generation_progress_file": "generation_progress.jsonl",
+  "evaluation": "unlabelled: no accuracy score; empty JSON and parse failure are distinct"
+}

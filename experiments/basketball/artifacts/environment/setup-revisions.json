@@ -1,0 +1,22 @@
+{
+  "comotion": [
+    "ml-comotion",
+    "apple/ml-comotion",
+    "04b035af79a68267f6bb722b61bf5f13cb2b0068"
+  ],
+  "multihmr2": [
+    "multi-hmr2",
+    "naver/multi-hmr2",
+    "f066532d096034700e5ba8b7b1ca655729d3ea6e"
+  ],
+  "motiongpt": [
+    "MotionGPT",
+    "OpenMotionLab/MotionGPT",
+    "001aaca8d0ee218fc17f8265d11ac124044fe42f"
+  ],
+  "mgllm": [
+    "MG-MotionLLM",
+    "BizhuWu/MG-MotionLLM",
+    "b8e6df126197609dc692686991fff2c1703eb217"
+  ]
+}

@@ -1,0 +1,33 @@
+8 sessions / 32 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_quick
+[1/8] START timelens2-4b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-4b__quick/attempt_001.log
+[1/8] SUCCESS timelens2-4b__quick (150.15 s)
+[2/8] START timelens2-8b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens2-8b__quick/attempt_001.log
+[2/8] SUCCESS timelens2-8b__quick (150.18 s)
+[3/8] START timelens-8b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-8b__quick/attempt_001.log
+[3/8] SUCCESS timelens-8b__quick (240.32 s)
+[4/8] START timelens-7b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/timelens-7b__quick/attempt_001.log
+[4/8] SUCCESS timelens-7b__quick (240.33 s)
+[5/8] START time-r1-7b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_001.log
+Interrupted; rerun the same command to resume.
+8 sessions / 32 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_quick
+usage: basketball_batch.py [-h] [--workspace WORKSPACE] [--out OUT]
+                           [--models {timelens2-4b,timelens2-8b,timelens-8b,timelens-7b,time-r1-7b,time-r1-3b,qwen3-vl-8b,qwen2.5-vl-7b} [{timelens2-4b,timelens2-8b,timelens-8b,timelens-7b,time-r1-7b,time-r1-3b,qwen3-vl-8b,qwen2.5-vl-7b} ...]]
+                           [--baseline-repeats BASELINE_REPEATS]
+                           [--suite {full,quick}]
+                           [--deadline-minutes DEADLINE_MINUTES] [--dry-run]
+                           [--retry-failed] [--timeout-hours TIMEOUT_HOURS]
+basketball_batch.py: error: Plan/source/code changed; choose a new --out directory to avoid mixing experiments
+8 sessions / 32 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_quick
+[5/8] START time-r1-7b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-7b__quick/attempt_002.log
+[5/8] SUCCESS time-r1-7b__quick (160.2 s)
+[6/8] START time-r1-3b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/time-r1-3b__quick/attempt_001.log
+[6/8] SUCCESS time-r1-3b__quick (180.31 s)
+[7/8] START qwen3-vl-8b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/qwen3-vl-8b__quick/attempt_001.log
+[7/8] SUCCESS qwen3-vl-8b__quick (250.43 s)
+[8/8] START qwen2.5-vl-7b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_001.log
+[8/8] FAILED qwen2.5-vl-7b__quick (170.31 s)
+Batch finished. Non-success sessions: 1. See /home/elicer/aim-workspace/results_grounding/basketball_quick/progress.md
+8 sessions / 32 query calls; output: /home/elicer/aim-workspace/results_grounding/basketball_quick
+[8/8] START qwen2.5-vl-7b__quick -> /home/elicer/aim-workspace/results_grounding/basketball_quick/qwen2.5-vl-7b__quick/attempt_002.log
+[8/8] SUCCESS qwen2.5-vl-7b__quick (180.33 s)
+Batch finished. Non-success sessions: 0. See /home/elicer/aim-workspace/results_grounding/basketball_quick/progress.md

@@ -1,0 +1,2 @@
+trial,query_id,variant,repeat,status,parse_status,span_count,invalid_span_count,preprocess_s,generate_s,decode_parse_s,wall_s,input_tokens,output_tokens,hit_output_limit,peak_allocated_gib,peak_reserved_gib,error
+1,shot,0,0,ok,json,5,0,32.926158024929464,11.165740380063653,0.000915557611733675,44.092839939985424,17090,59,False,12.562813758850098,13.54296875,

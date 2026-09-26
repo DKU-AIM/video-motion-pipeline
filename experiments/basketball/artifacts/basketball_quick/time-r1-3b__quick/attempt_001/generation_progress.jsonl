@@ -1,0 +1,12 @@
+{"trial": 1, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.02240337384864688, "unix_s": 1790389162.1981483}
+{"trial": 1, "event": "token_progress", "generated_tokens": 1, "seconds": 5.280286726076156, "unix_s": 1790389167.4560313}
+{"trial": 1, "event": "generation_end", "generated_tokens": 2, "seconds": 5.333333535119891, "unix_s": 1790389167.509078}
+{"trial": 2, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.0018600160256028175, "unix_s": 1790389192.0342908}
+{"trial": 2, "event": "token_progress", "generated_tokens": 1, "seconds": 4.868556078989059, "unix_s": 1790389196.9009864}
+{"trial": 2, "event": "generation_end", "generated_tokens": 2, "seconds": 4.901326625607908, "unix_s": 1790389196.9337566}
+{"trial": 3, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.0022085029631853104, "unix_s": 1790389221.6030264}
+{"trial": 3, "event": "token_progress", "generated_tokens": 1, "seconds": 4.715064643882215, "unix_s": 1790389226.315882}
+{"trial": 3, "event": "generation_end", "generated_tokens": 12, "seconds": 5.033944585826248, "unix_s": 1790389226.6347618}
+{"trial": 4, "event": "prompt_ready", "generated_tokens": 0, "seconds": 0.0023713880218565464, "unix_s": 1790389250.5624652}
+{"trial": 4, "event": "token_progress", "generated_tokens": 1, "seconds": 4.794009542092681, "unix_s": 1790389255.3541045}
+{"trial": 4, "event": "generation_end", "generated_tokens": 2, "seconds": 4.825118913780898, "unix_s": 1790389255.3852122}
