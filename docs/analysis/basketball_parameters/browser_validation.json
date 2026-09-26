@@ -1,0 +1,12 @@
+{
+  "embedded_figures": 8,
+  "desktop_and_mobile": true,
+  "javascript_errors": [],
+  "model_query_condition_selectors": true,
+  "interval_selection": true,
+  "relative_links_valid": true,
+  "mobile_dimensions": {
+    "width": 390,
+    "scroll": 390
+  }
+}

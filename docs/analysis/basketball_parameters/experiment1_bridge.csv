@@ -1,0 +1,11 @@
+model,query,same_raw,same_spans,same_grid,same_input_tokens,experiment1_wall_s,experiment2_D_wall_s
+timelens2-4b,shot,True,True,True,True,38.87913543917239,39.17486837413162
+timelens2-4b,dark_shot,True,True,True,True,31.71219237986952,32.20897643826902
+timelens2-4b,bench,True,True,True,True,30.841312397737056,30.853618153836578
+timelens2-4b,closeup,True,True,True,True,30.06238968996331,27.58684038836509
+timelens2-4b,football,True,True,True,True,30.08838227810338,30.33404265716672
+timelens-8b,shot,True,True,True,True,55.603280906099826,53.38279962306842
+timelens-8b,dark_shot,True,True,True,True,44.47589121479541,46.19914481602609
+timelens-8b,bench,True,True,True,True,34.2048463979736,34.06994292093441
+timelens-8b,closeup,True,True,True,True,40.34865104081109,40.26301834825426
+timelens-8b,football,True,True,True,True,32.54526973282918,32.64417772181332

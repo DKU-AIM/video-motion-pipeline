@@ -1,0 +1,20 @@
+[
+  {
+    "file": "grounding/basketball_probe.py",
+    "expected_sha256": "1b941e6176a2ab87407f7e9a0c395ed0ff7b05c509f7d26ee2269787c576f1b9",
+    "current_sha256": "1b941e6176a2ab87407f7e9a0c395ed0ff7b05c509f7d26ee2269787c576f1b9",
+    "match": true
+  },
+  {
+    "file": "grounding/vtg_run.py",
+    "expected_sha256": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf",
+    "current_sha256": "41dda0a8b257f01f3eaea2c4fad4db59bdedb1c78848ca418ba8cbb8e4442ccf",
+    "match": true
+  },
+  {
+    "file": "grounding/basketball_batch.py",
+    "expected_sha256": "6ecd548c391fca38fbccc487703ac370474800cce8db76e28afba140f31f03d7",
+    "current_sha256": "6ecd548c391fca38fbccc487703ac370474800cce8db76e28afba140f31f03d7",
+    "match": true
+  }
+]
