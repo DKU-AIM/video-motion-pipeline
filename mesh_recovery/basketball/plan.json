@@ -1,0 +1,13 @@
+{
+  "experiment": "PHALP selected-player crop + fresh HMR 2.0 inference",
+  "margin_each_side": 0.1,
+  "crop_policy": "Per-frame expanded xywh, floor/ceil edges, clamp to source, center on fixed black canvas without scaling. No interpolation, stabilization, or mesh temporal smoothing.",
+  "segments": [
+    {"case":"02", "id":9, "start":1094, "end":1338, "source_offset":930, "name":"ID009_02_슛구간", "person":"남색 21번", "reason":"관측 공백 뒤 18.233–22.300초, 슛 포함"},
+    {"case":"01", "id":25, "start":412, "end":772, "source_offset":990, "name":"ID025_01_공격전개", "person":"흰색 25번", "reason":"관측 공백 뒤 6.867–12.867초"},
+    {"case":"02", "id":9, "start":300, "end":660, "source_offset":930, "name":"ID009_01_드리블구간", "person":"남색 21번", "reason":"5.000–11.000초, 드리블 포함"},
+    {"case":"03", "id":4, "start":25, "end":525, "source_offset":177, "name":"ID004_01_수비이동", "person":"남색 3번", "reason":"화면 전환 제외, 0.500–10.500초"},
+    {"case":"04", "id":1, "start":142, "end":392, "source_offset":120, "name":"ID001_01_공격전개", "person":"남색 9번", "reason":"관측 공백 뒤 5.680–15.680초"},
+    {"case":"05", "id":1, "start":241, "end":491, "source_offset":132, "name":"ID001_01_수비이동", "person":"빨간색 2번", "reason":"관측 공백 뒤 9.640–19.640초"}
+  ]
+}
