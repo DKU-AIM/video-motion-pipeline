@@ -54,7 +54,7 @@ def track_color(tid):
 class MeshRenderer:
     """메시를 이미지 위에 합성한다.
 
-    Multi-HMR 2 의 `render_meshes()` 와 장면 구성(재질, 조명, 카메라 규약, 
+    Multi-HMR 2 의 `render_meshes()` 와 장면 구성(재질, 조명, 카메라 규약,
     경계 블렌딩)이 같다. 다른 점은 `OffscreenRenderer` 를 한 번만 만들어
     재사용한다는 것뿐이다. 원본은 호출마다 생성, 파괴하는데, osmesa 에서는
     컨텍스트 생성이 수백 ms 라 프레임마다 하면 영상 렌더가 불가능하다.
