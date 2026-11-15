@@ -7,9 +7,9 @@
 
 ## 제외 대상
 
-- data/: 원본·결과·NAS 다운로드 및 서버 감시 스크립트. 필요한 추론·변환 코드만 선별 추출.
+- data/: 원본, 결과, NAS 다운로드 및 서버 감시 스크립트. 필요한 추론, 변환 코드만 선별 추출.
 - docs의 PPT 제작 디렉터리: 발표 결과물과 빌드 도구.
-- Captured-Motion-Dataset, smpl, videos, vis, outputs: 데이터·라이선스 자산·산출물.
+- Captured-Motion-Dataset, smpl, videos, vis, outputs: 데이터, 라이선스 자산, 산출물.
 - 개인 인수인계 메모, 메일 링크, 구형 배포 번들, 기존 가상환경.
 - 영상별 run_motiongpt_* / run_mgllm_* 복제본: 공통 실행본만 유지.
 

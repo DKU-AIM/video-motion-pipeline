@@ -1,7 +1,7 @@
 """GT 대비 포즈 오차. 단위는 3D=mm, 2D=픽셀.
 
 PA-MPJPE 를 주 지표로 쓰는 이유: 관절 회전은 키네매틱 트리를 타고
-아래로 오차가 누적되므로, 전역 위치·방향·스케일의 차이를 제거하고
+아래로 오차가 누적되므로, 전역 위치, 방향, 스케일의 차이를 제거하고
 '자세 자체가 맞았는가'만 보려면 Procrustes 정렬이 필요하다.
 """
 import numpy as np
@@ -11,7 +11,7 @@ from smpl_eval.conventions import (
 
 
 def _procrustes(pred, gt):
-    """스케일·회전·평행이동을 gt 에 맞추도록 pred 를 정렬한다 (프레임별)."""
+    """스케일, 회전, 평행이동을 gt 에 맞추도록 pred 를 정렬한다 (프레임별)."""
     pred = np.asarray(pred, float)
     gt = np.asarray(gt, float)
     mp = pred.mean(1, keepdims=True)
@@ -65,7 +65,7 @@ def reprojection_error(pred_j2d, gt_j2d):
 
 
 def pose_metrics(pred, gt, mapping, frame_offset=0):
-    """예측·GT 를 프레임 + bbox IoU 로 짝지어 오차를 낸다.
+    """예측, GT 를 프레임 + bbox IoU 로 짝지어 오차를 낸다.
 
     frame_offset: gt_frame = pred_frame + frame_offset
     GT 에 없는 SMPL 슬롯은 NaN 이므로 매핑된 관절만 골라서 비교한다.

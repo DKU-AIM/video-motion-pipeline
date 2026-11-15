@@ -61,13 +61,13 @@ def detect_frame_offset(gt_frames, n_video_frames):
 def to_gt_tracks(parsed, mapping, image_wh=None, camera=None):
     """파싱 결과를 tracks.npz 호환 dict 로 변환. 미대응 SMPL 슬롯은 NaN.
 
-    GT 에는 β·포즈 파라미터가 없으므로 해당 필드는 전부 NaN 이다.
+    GT 에는 β, 포즈 파라미터가 없으므로 해당 필드는 전부 NaN 이다.
     스키마를 공유해야 지표 코드가 예측/GT 를 구분 없이 다룰 수 있다.
 
     camera: ColmapCamera. **반드시 넘겨야 한다.** GT 는 SfM 월드 좌표라
       화면 좌표를 모르는데, 예측과 GT 를 짝짓는 것은 bbox IoU 이기 때문이다.
       약원근 근사로 대신하면 z 가 0 을 지나며 발산해 bbox 가 수천만 픽셀까지
-      튄다(Data4 실측: 화면 안 0%). 그러면 ID·포즈 지표가 전부 무의미해진다.
+      튄다(Data4 실측: 화면 안 0%). 그러면 ID, 포즈 지표가 전부 무의미해진다.
       camera 가 없으면 joints2d/bbox 는 NaN 으로 두고 3D 지표만 쓸 수 있다.
     """
     n = len(parsed["frame_ids"])

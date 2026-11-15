@@ -37,7 +37,7 @@ def load_gt(rec):
     parsed["frame_ids"] = parsed["frame_ids"] - off
 
     # GT 를 이 카메라 화면으로 정확히 투영한다. 예측-GT 매칭이 bbox IoU 라
-    # 투영이 틀리면 ID·포즈 지표 전체가 무의미해진다.
+    # 투영이 틀리면 ID, 포즈 지표 전체가 무의미해진다.
     camera, cam_err = None, None
     if rec.get("colmap_dir"):
         try:

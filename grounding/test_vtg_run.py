@@ -5,10 +5,10 @@ vtg_run.py 검증 테스트 — GPU 없이 실행 가능.
 torch / transformers / qwen_vl_utils / av 를 가짜 모듈로 주입해서
 실제 추론 코드 경로를 그대로 통과시킨 뒤, 각 모델이
 
-  · 공식 모델 카드와 동일한 프롬프트를 쓰는가
-  · 공식 모델 카드와 동일한 process_vision_info 호출 규약을 쓰는가
-  · 픽셀 예산(patch 크기)이 맞는가
-  · 출력 파싱이 정확한가
+, 공식 모델 카드와 동일한 프롬프트를 쓰는가
+, 공식 모델 카드와 동일한 process_vision_info 호출 규약을 쓰는가
+, 픽셀 예산(patch 크기)이 맞는가
+, 출력 파싱이 정확한가
 
 를 확인합니다.  실행:  python3 test_vtg_run.py
 """

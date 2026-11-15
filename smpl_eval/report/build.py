@@ -138,8 +138,8 @@ def build_html(rows, out_path, title="CoMotion vs Multi-HMR 2"):
 
     p = [f"<title>{_html.escape(title)}</title>", f"<style>{CSS}</style>",
          f"<h1>{_html.escape(title)}</h1>",
-         f"<p class='sub'>{len(rows)}개 결과 · "
-         f"{len(by_ds)}개 데이터셋 · 초록 배경 = 해당 지표 우세</p>",
+         f"<p class='sub'>{len(rows)}개 결과, "
+         f"{len(by_ds)}개 데이터셋, 초록 배경 = 해당 지표 우세</p>",
          f"<div class='note'>{_html.escape(gt_note)}<br>"
          "PA-MPJPE 는 표준 인체(544.6mm) 기준으로 정규화한 값입니다 — "
          "GT 가 SfM 재구성이라 데이터셋마다 스케일이 다르기 때문입니다. "

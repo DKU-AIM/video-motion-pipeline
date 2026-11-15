@@ -5,12 +5,12 @@
 <rect x="54" y="80" width="646" height="386" rx="22" fill="#0E3031"/>
 <rect x="66" y="92" width="622" height="362" rx="15" fill="#163F3D"/>
 <g font-family="Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" text-anchor="middle">
-<text x="377" y="145" fill="#F1B47C" font-size="21" font-weight="700" letter-spacing="3">AIM · CAPSTONE</text>
+<text x="377" y="145" fill="#F1B47C" font-size="21" font-weight="700" letter-spacing="3">AIM CAPSTONE</text>
 <text x="377" y="204" fill="#F9F5E9" font-size="38" font-weight="700">농구 선수별</text>
 <text x="377" y="253" fill="#F9F5E9" font-size="38" font-weight="700">3D 모션 데이터 구축</text>
 <circle cx="377" cy="325" r="38" fill="#F1B47C"/>
 <path d="M368 307L393 325L368 343Z" fill="#163F3D"/>
-<text x="377" y="414" fill="#C9DCD4" font-size="22">박지우 · 박주희 · 안균승</text>
+<text x="377" y="414" fill="#C9DCD4" font-size="22">박지우, 박주희, 안균승</text>
 </g>
 <circle cx="752" cy="135" r="23" fill="#234D4A"/>
 <path d="M752 119V135L761 145" stroke="#F1B47C" stroke-width="5" stroke-linecap="round" fill="none"/>

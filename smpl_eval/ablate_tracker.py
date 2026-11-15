@@ -26,7 +26,7 @@ CACHE_VERSION = 2
 
 
 def cache_detections(session, video_path, tmp_dir, cache_path, coco_w):
-    """추론을 한 번만 돌려 추적·평가에 필요한 것만 저장한다.
+    """추론을 한 번만 돌려 추적, 평가에 필요한 것만 저장한다.
 
     v3d(19,158 정점)를 그대로 담으면 캐시가 2GB 를 넘는다. 여기서
     COCO 키포인트로 미리 회귀해 담는다.

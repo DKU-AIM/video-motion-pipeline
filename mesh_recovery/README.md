@@ -1,4 +1,4 @@
-# 메시 복원 · CoMotion / Multi-HMR 2
+# 메시 복원, CoMotion / Multi-HMR 2
 
 [새 인스턴스 전체 실행 순서](../docs/ELICE_GUIDE.md)
 

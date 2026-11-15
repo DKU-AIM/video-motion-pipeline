@@ -118,7 +118,7 @@ def test_no_camera_yields_nan_2d_not_garbage():
 def test_colmap_projection_puts_gt_on_screen():
     """COLMAP 카메라로 투영하면 GT 가 실제 화면 안에 들어와야 한다.
 
-    예측-GT 매칭이 bbox IoU 이므로 이게 깨지면 ID·포즈 지표가 전부 무의미해진다.
+    예측-GT 매칭이 bbox IoU 이므로 이게 깨지면 ID, 포즈 지표가 전부 무의미해진다.
     """
     import json
     from smpl_eval.gt.colmap import load_camera

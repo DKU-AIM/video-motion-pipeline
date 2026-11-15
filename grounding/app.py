@@ -199,8 +199,8 @@ def run(video, query, model_label, progress=None):
     lines = [f"### 결과 — {len(spans)}개 구간", ""]
     for i, (s, e) in enumerate(spans, 1):
         lines.append(f"**{i}. {s:.2f}초 ~ {e:.2f}초**  (길이 {e - s:.2f}초)")
-    lines += ["", f"영상 {dur:.1f}초 · {r['latency_s']}초 소요 · "
-                  f"VRAM {r['peak_vram_gb']}GB · 모델 `{key}`"]
+    lines += ["", f"영상 {dur:.1f}초, {r['latency_s']}초 소요, "
+                  f"VRAM {r['peak_vram_gb']}GB, 모델 `{key}`"]
 
     png = timeline_png(dur, spans)
     try:
@@ -242,7 +242,7 @@ def build_ui():
 
                 gr.Markdown(
                     "**좋은 문장 쓰는 법**\n"
-                    "- 시작·끝을 눈으로 확정할 수 있는 동작으로\n"
+                    "- 시작, 끝을 눈으로 확정할 수 있는 동작으로\n"
                     "- 영상에서 **한 번만** 일어나는 사건으로\n"
                     "- 구체적인 명사 + 명확한 동작\n\n"
                     "❌ `a person is walking` (영상 내내 나옴)\n"

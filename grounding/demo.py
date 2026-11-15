@@ -147,7 +147,7 @@ def run(video, query, label, progress=None):
         t = it / un if un > 0 else 0
         md += ["", f"정답: **{gt[0]:.1f}초 ~ {gt[1]:.1f}초**",
                f"**tIoU = {t:.3f}** ({'잘 맞음' if t >= .5 else '아쉬움' if t >= .3 else '빗나감'})"]
-    md += ["", f"영상 {d:.1f}초 · 모델 `{M[label][0]}`"]
+    md += ["", f"영상 {d:.1f}초, 모델 `{M[label][0]}`"]
 
     png = None
     try:
