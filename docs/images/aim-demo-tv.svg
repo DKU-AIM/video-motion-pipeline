@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="566" viewBox="0 0 840 566">
+<path d="M362 52L316 16M478 52L524 16" fill="none" stroke="#234D4A" stroke-width="12" stroke-linecap="round"/>
+<rect x="22" y="48" width="796" height="450" rx="40" fill="#234D4A"/>
+<rect x="34" y="60" width="772" height="426" rx="32" fill="#F3EBDD"/>
+<rect x="54" y="80" width="646" height="386" rx="22" fill="#0E3031"/>
+<rect x="66" y="92" width="622" height="362" rx="15" fill="#163F3D"/>
+<g font-family="Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" text-anchor="middle">
+<text x="377" y="145" fill="#F1B47C" font-size="21" font-weight="700" letter-spacing="3">AIM · CAPSTONE</text>
+<text x="377" y="204" fill="#F9F5E9" font-size="38" font-weight="700">농구 선수별</text>
+<text x="377" y="253" fill="#F9F5E9" font-size="38" font-weight="700">3D 모션 데이터 구축</text>
+<circle cx="377" cy="325" r="38" fill="#F1B47C"/>
+<path d="M368 307L393 325L368 343Z" fill="#163F3D"/>
+<text x="377" y="414" fill="#C9DCD4" font-size="22">박지우 · 박주희 · 안균승</text>
+</g>
+<circle cx="752" cy="135" r="23" fill="#234D4A"/>
+<path d="M752 119V135L761 145" stroke="#F1B47C" stroke-width="5" stroke-linecap="round" fill="none"/>
+<circle cx="752" cy="201" r="23" fill="#234D4A"/>
+<path d="M742 201H762" stroke="#F1B47C" stroke-width="5" stroke-linecap="round"/>
+<path d="M730 322H774M730 337H774M730 352H774M730 367H774M730 382H774" stroke="#B6B8A9" stroke-width="5" stroke-linecap="round"/>
+<circle cx="752" cy="431" r="5" fill="#D2804D"/>
+<path d="M191 499L171 544M649 499L669 544" stroke="#234D4A" stroke-width="20" stroke-linecap="round"/>
+</svg>
