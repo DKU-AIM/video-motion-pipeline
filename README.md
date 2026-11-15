@@ -15,7 +15,13 @@
 | 프로젝트 결과보고서 PDF | [AIM 프로젝트 결과보고서](docs/AIM-result-report.pdf) |
 | 외부에서 접속 가능한 최종 시연 영상 | [YouTube 최종 시연 영상 · 인트로와 시간대별 설명](https://youtu.be/SjQMNK_dv7E) |
 
-[![AIM 최종 시연 영상](docs/images/aim-demo-thumbnail.png)](https://youtu.be/SjQMNK_dv7E)
+<p align="center">
+  <a href="https://youtu.be/SjQMNK_dv7E">
+    <img src="docs/images/aim-demo-tv.svg" width="420" alt="AIM 시연 영상 — TV를 클릭하면 YouTube로 이동합니다" />
+  </a>
+  <br />
+  <sub>▶ TV를 클릭하면 전체 시연 영상을 볼 수 있습니다.</sub>
+</p>
 
 ## 파이프라인
 
