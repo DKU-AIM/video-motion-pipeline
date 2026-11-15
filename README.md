@@ -1,4 +1,4 @@
-# AIM · 농구 영상에서 선수별 3D 모션 데이터까지
+# AIM · 농구 선수별 3D 모션 데이터 구축
 
 단국대학교 캡스톤디자인 2 · 박지우 · 박주희 · 안균승
 
@@ -13,7 +13,9 @@
 | 소스 코드 · 실행 스크립트 · 개발 문서 | [실행 방법](#실행-방법) · [농구 추적·복원 실행](mesh_recovery/basketball/README.md) · [모델 환경 설정](docs/ELICE_GUIDE.md) |
 | 발표자료 또는 포스터 PDF | 최종본 준비 중 |
 | 프로젝트 결과보고서 PDF | [AIM 프로젝트 결과보고서](docs/AIM-result-report.pdf) |
-| 외부에서 접속 가능한 최종 시연 영상 | 녹화 및 공개 링크 준비 중 |
+| 외부에서 접속 가능한 최종 시연 영상 | [YouTube 최종 시연 영상 · 인트로와 시간대별 설명](https://youtu.be/SjQMNK_dv7E) |
+
+[![AIM 최종 시연 영상](docs/images/aim-demo-thumbnail.png)](https://youtu.be/SjQMNK_dv7E)
 
 ## 파이프라인
 
